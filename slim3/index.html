@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bản Kế Hoạch Kinh Doanh & Full Funnel — MLEGEND SLIM 3 (Philippines)</title>
+  <!-- Google Fonts: Plus Jakarta Sans & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Marked.js for Markdown Modal Rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Space Grotesk"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              cyan: '#00e5ff',
+              cyanHover: '#00b4d8',
+              gold: '#ffd166',
+              green: '#10b981',
+              purple: '#a855f7',
+              red: '#ff4757',
+              dark: '#070a12',
+              card: '#0f172a',
+              cardBorder: '#1e293b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    :root {
+      --bg: #070a12;
+      --card-bg: #0f172a;
+      --card-border: #1e293b;
+      --primary: #00e5ff;
+      --gold: #ffd166;
+      --green: #10b981;
+      --purple: #a855f7;
+    }
+    html { scroll-behavior: smooth; scroll-padding-top: 112px; }
+    @media (max-width: 768px) { html { scroll-padding-top: 104px; } }
+    body { background: #070a12; color: #f8fafc; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #070a12; }
+    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 9999px; }
+    ::-webkit-scrollbar-thumb:hover { background: #334155; }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    .live-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: #10b981; box-shadow: 0 0 8px #10b981;
+      animation: pulse-dot 1.8s infinite;
+    }
+    /* Modal Markdown Styling */
+    .modal-body h1 { font-size: 1.25rem; font-weight: 800; color: #ffffff; margin-bottom: 0.75rem; border-bottom: 1px solid #1e293b; padding-bottom: 0.5rem; }
+    .modal-body h2 { font-size: 1.05rem; font-weight: 800; color: #00e5ff; margin-top: 1rem; margin-bottom: 0.5rem; }
+    .modal-body h3 { font-size: 0.95rem; font-weight: 700; color: #ffd166; margin-top: 0.75rem; margin-bottom: 0.35rem; }
+    .modal-body p { margin-bottom: 0.75rem; font-size: 0.85rem; line-height: 1.6; color: #cbd5e1; }
+    .modal-body ul, .modal-body ol { margin-left: 1.25rem; margin-bottom: 0.75rem; font-size: 0.85rem; color: #cbd5e1; }
+    .modal-body li { margin-bottom: 0.25rem; list-style-type: disc; }
+    .modal-body strong { color: #ffffff; font-weight: 700; }
+    .modal-body blockquote { background: #070a12; border-left: 3px solid #00e5ff; padding: 0.5rem 0.75rem; margin: 0.75rem 0; border-radius: 0.25rem; font-style: italic; color: #94a3b8; }
+    .modal-body pre { background: #070a12; padding: 0.75rem; border-radius: 0.5rem; overflow-x: auto; margin: 0.75rem 0; border: 1px solid #1e293b; font-size: 0.75rem; }
+    .modal-body code { background: rgba(0, 229, 255, 0.08); color: #00e5ff; padding: 0.15rem 0.35rem; border-radius: 0.25rem; font-size: 0.8rem; font-family: monospace; }
+    .modal-body pre code { background: transparent; color: #e2e8f0; padding: 0; }
+  </style>
+</head>
+<body class="min-h-screen font-sans antialiased selection:bg-cyan-500 selection:text-slate-950">
+
+  <!-- ==================== FIXED DUAL-TIER TOPBAR ==================== -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-slate-950/95 backdrop-blur-md border-b border-slate-800 shadow-2xl">
+    
+    <!-- TẦNG 1: MASTER MODE SWITCHER & BRANDING -->
+    <div class="max-w-[1400px] mx-auto px-3 sm:px-4 py-2 sm:py-2.5 flex items-center justify-between border-b border-slate-800/80 gap-2 sm:gap-4">
+      
+      <!-- Brand Logo -->
+      <div class="flex items-center space-x-2 sm:space-x-3 shrink-0">
+        <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/20">
+          <i data-lucide="zap" class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-950 stroke-[3]"></i>
+        </div>
+        <div class="font-display font-extrabold text-xs sm:text-sm tracking-tight text-white flex items-center gap-1 sm:gap-1.5">
+          <span>SAFEDRIVE</span>
+          <span class="text-cyan-400">AI</span>
+          <span class="hidden sm:inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 font-sans font-semibold">PHILIPPINES</span>
+        </div>
+      </div>
+
+      <!-- MASTER 2-TAB SWITCHER (TÁCH BIỆT KẾ HOẠCH & BMC) -->
+      <div class="flex items-center bg-slate-900 p-1 rounded-xl border border-slate-800 shadow-inner shrink-0">
+        <button onclick="switchMasterView('plan')" id="master-btn-plan" class="flex items-center space-x-1 sm:space-x-2 px-2.5 sm:px-4 py-1.5 rounded-lg text-xs font-bold transition-all bg-cyan-400 text-slate-950 shadow-md shadow-cyan-400/20 whitespace-nowrap">
+          <i data-lucide="layers" class="w-3.5 h-3.5 shrink-0"></i>
+          <span class="hidden sm:inline">📋 Kế Hoạch 6 Chặng</span>
+          <span class="sm:hidden">6 Chặng</span>
+        </button>
+        <button onclick="switchMasterView('bmc')" id="master-btn-bmc" class="flex items-center space-x-1 sm:space-x-2 px-2.5 sm:px-4 py-1.5 rounded-lg text-xs font-semibold transition-all text-slate-400 hover:text-white whitespace-nowrap">
+          <i data-lucide="layout-grid" class="w-3.5 h-3.5 shrink-0"></i>
+          <span class="hidden sm:inline">📐 Mô Hình BMC 9 Khối</span>
+          <span class="sm:hidden">BMC 9 Khối</span>
+        </button>
+      </div>
+
+      <!-- Quick Badges & Web Live Button -->
+      <div class="hidden lg:flex items-center space-x-3 shrink-0">
+        <div class="flex items-center space-x-2 bg-slate-900 px-2.5 py-1 rounded-lg border border-slate-800 text-[11px]">
+          <span class="live-dot"></span>
+          <span class="text-slate-400">Kho Manila:</span>
+          <span class="font-bold text-emerald-400">20 Bộ</span>
+        </div>
+        <div class="flex items-center space-x-1.5 bg-slate-900 px-2.5 py-1 rounded-lg border border-slate-800 text-[11px]">
+          <span class="text-slate-400">Target T9:</span>
+          <span class="font-bold text-amber-400">80.000.000đ</span>
+        </div>
+        <a href="https://safedrive-auto.com/auxiliary-lights/auxiliary-lights-mlegend-lim3" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-bold hover:bg-cyan-400 hover:text-slate-950 transition-all">
+          <span>Web Live</span>
+          <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- TẦNG 2: SUB-NAVIGATION CHO KẾ HOẠCH 6 CHẶNG (CHỈ HIỆN KHI Ở TAB KẾ HOẠCH) -->
+    <div id="sub-nav-plan" class="max-w-[1400px] mx-auto px-2.5 sm:px-4 py-1.5 border-t border-slate-800/60 bg-slate-950/95">
+      
+      <!-- PHIÊN BẢN MOBILE: VỪA KHÍT MÀN HÌNH, 1 CHẠM NHANH HOẶC MỞ MENU CHI TIẾT (KHÔNG CẦN CUỘN NGANG) -->
+      <div class="flex md:hidden items-center justify-between gap-1 relative">
+        <!-- Nút Menu Dropdown -->
+        <button onclick="toggleMobileNav(event)" id="mobile-nav-btn" class="flex items-center space-x-1 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-cyan-500/30 text-cyan-400 text-xs font-bold shrink-0 shadow-sm active:scale-95 transition-all">
+          <i data-lucide="compass" class="w-3.5 h-3.5 text-cyan-400"></i>
+          <span id="mobile-nav-label">Chặng</span>
+          <i data-lucide="chevron-down" id="mobile-nav-arrow" class="w-3 h-3 text-cyan-400 transition-transform duration-200"></i>
+        </button>
+
+        <!-- 7 Nút bấm 1 chạm vừa khít màn hình Mobile không cần cuộn -->
+        <div class="flex items-center justify-end space-x-1 flex-1">
+          <a href="#hero" onclick="setActiveNav('hero')" class="mobile-nav-pill px-1.5 py-1 rounded-md bg-slate-900 border border-slate-800 text-[11px] font-bold text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 transition-colors">📌</a>
+          <a href="#chang-1" onclick="setActiveNav('chang-1')" class="mobile-nav-pill px-2 py-1 rounded-md bg-slate-900 border border-slate-800 text-[11px] font-bold text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 transition-colors">C1</a>
+          <a href="#chang-2" onclick="setActiveNav('chang-2')" class="mobile-nav-pill px-2 py-1 rounded-md bg-slate-900 border border-slate-800 text-[11px] font-bold text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 transition-colors">C2</a>
+          <a href="#chang-3" onclick="setActiveNav('chang-3')" class="mobile-nav-pill px-2 py-1 rounded-md bg-slate-900 border border-slate-800 text-[11px] font-bold text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 transition-colors">C3</a>
+          <a href="#chang-4" onclick="setActiveNav('chang-4')" class="mobile-nav-pill px-2 py-1 rounded-md bg-slate-900 border border-slate-800 text-[11px] font-bold text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 transition-colors">C4</a>
+          <a href="#chang-5" onclick="setActiveNav('chang-5')" class="mobile-nav-pill px-2 py-1 rounded-md bg-slate-900 border border-slate-800 text-[11px] font-bold text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 transition-colors">C5</a>
+          <a href="#chang-6" onclick="setActiveNav('chang-6')" class="mobile-nav-pill px-2 py-1 rounded-md bg-slate-900 border border-slate-800 text-[11px] font-bold text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 transition-colors">C6</a>
+        </div>
+
+        <!-- Dropdown Menu chi tiết hiển thị toàn bộ 6 chặng với nền ĐẬM ĐẶC OPAQUE 100% (Khắc phục hoàn toàn lỗi chữ đè chữ) -->
+        <div id="mobile-nav-menu" class="hidden absolute top-full left-0 right-0 mt-2 rounded-2xl p-2.5 z-50 space-y-1.5 shadow-2xl border border-cyan-500/40" style="background-color: #070d19 !important; box-shadow: 0 25px 60px -10px rgba(0,0,0,0.95);">
+          <div class="flex items-center justify-between px-2 py-1 text-[10px] uppercase font-extrabold text-cyan-400 tracking-wider border-b border-slate-800/80 pb-1.5 mb-1">
+            <span>🧭 Chọn Chặng Tác Chiến:</span>
+            <button type="button" onclick="toggleMobileNav(event)" class="text-slate-400 hover:text-white text-xs px-2 py-0.5 rounded bg-slate-800/60">✕ Đóng</button>
+          </div>
+          <a href="#hero" onclick="selectMobileNav('📌 Bối Cảnh', 'hero')" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-semibold text-white bg-slate-900 border border-slate-800 hover:border-cyan-400 hover:bg-cyan-500/10 active:bg-cyan-500/20 transition-all">
+            <span class="flex items-center space-x-2"><span>📌</span> <span>Bối Cảnh & Mục Tiêu T9</span></span>
+            <span class="text-[10px] text-cyan-400 font-mono bg-cyan-950/60 px-2 py-0.5 rounded border border-cyan-800/50">20 bộ</span>
+          </a>
+          <a href="#chang-1" onclick="selectMobileNav('🎯 Chặng 1', 'chang-1')" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-semibold text-white bg-slate-900 border border-slate-800 hover:border-cyan-400 hover:bg-cyan-500/10 active:bg-cyan-500/20 transition-all">
+            <span class="flex items-center space-x-2"><span>🎯</span> <span>Chặng 1: Nền Tảng & Khách Hàng</span></span>
+            <span class="text-[10px] text-slate-400 font-mono">Avatar & USP</span>
+          </a>
+          <a href="#chang-2" onclick="selectMobileNav('💰 Chặng 2', 'chang-2')" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-semibold text-white bg-slate-900 border border-slate-800 hover:border-cyan-400 hover:bg-cyan-500/10 active:bg-cyan-500/20 transition-all">
+            <span class="flex items-center space-x-2"><span>💰</span> <span>Chặng 2: Offer & Money Model</span></span>
+            <span class="text-[10px] text-emerald-400 font-mono font-bold">₱10,490</span>
+          </a>
+          <a href="#chang-3" onclick="selectMobileNav('🗺️ Chặng 3', 'chang-3')" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-semibold text-white bg-slate-900 border border-slate-800 hover:border-cyan-400 hover:bg-cyan-500/10 active:bg-cyan-500/20 transition-all">
+            <span class="flex items-center space-x-2"><span>🗺️</span> <span>Chặng 3: Phễu Pipeline Chuyển Đổi</span></span>
+            <span class="text-[10px] text-slate-400 font-mono">Funnel 4 Tầng</span>
+          </a>
+          <a href="#chang-4" onclick="selectMobileNav('✍️ Chặng 4', 'chang-4')" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-semibold text-white bg-slate-900 border border-slate-800 hover:border-cyan-400 hover:bg-cyan-500/10 active:bg-cyan-500/20 transition-all">
+            <span class="flex items-center space-x-2"><span>✍️</span> <span>Chặng 4: Kho Tư Liệu Ads & Video</span></span>
+            <span class="text-[10px] text-amber-400 font-mono font-bold">5 Ads / 3 Vid</span>
+          </a>
+          <a href="#chang-5" onclick="selectMobileNav('🎯 Chặng 5', 'chang-5')" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-semibold text-white bg-slate-900 border border-slate-800 hover:border-cyan-400 hover:bg-cyan-500/10 active:bg-cyan-500/20 transition-all">
+            <span class="flex items-center space-x-2"><span>🎯</span> <span>Chặng 5: Sales Scripts & Xử Lý Từ Chối</span></span>
+            <span class="text-[10px] text-slate-400 font-mono">4 Kịch bản</span>
+          </a>
+          <a href="#chang-6" onclick="selectMobileNav('🚀 Chặng 6', 'chang-6')" class="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-semibold text-white bg-slate-900 border border-slate-800 hover:border-cyan-400 hover:bg-cyan-500/10 active:bg-cyan-500/20 transition-all">
+            <span class="flex items-center space-x-2"><span>🚀</span> <span>Chặng 6: Kế Hoạch 30 Ngày & Checklist</span></span>
+            <span class="text-[10px] text-purple-400 font-mono font-bold">Lộc/Bảo/Khang</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- PHIÊN BẢN DESKTOP / TABLET (TỪ MD TRỞ LÊN): HIỂN THỊ ĐẦY ĐỦ THANH PILLS -->
+      <div class="hidden md:flex items-center justify-start lg:justify-center space-x-2">
+        <span class="text-[10px] font-extrabold text-cyan-400 uppercase tracking-wider shrink-0 mr-1 flex items-center space-x-1">
+          <i data-lucide="compass" class="w-3.5 h-3.5 text-cyan-400"></i>
+          <span>6 CHẶNG SOP:</span>
+        </span>
+        <a href="#hero" class="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 font-medium whitespace-nowrap text-xs transition-colors shrink-0">📌 Bối Cảnh</a>
+        <a href="#chang-1" class="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 font-medium whitespace-nowrap text-xs transition-colors shrink-0">🎯 Chặng 1: Nền Tảng</a>
+        <a href="#chang-2" class="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 font-medium whitespace-nowrap text-xs transition-colors shrink-0">💰 Chặng 2: Offer</a>
+        <a href="#chang-3" class="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 font-medium whitespace-nowrap text-xs transition-colors shrink-0">🗺️ Chặng 3: Phễu</a>
+        <a href="#chang-4" class="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 font-medium whitespace-nowrap text-xs transition-colors shrink-0">✍️ Chặng 4: Copy</a>
+        <a href="#chang-5" class="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 font-medium whitespace-nowrap text-xs transition-colors shrink-0">🎯 Chặng 5: Sales</a>
+        <a href="#chang-6" class="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 font-medium whitespace-nowrap text-xs transition-colors shrink-0">🚀 Chặng 6: Kế Hoạch</a>
+      </div>
+
+    </div>
+
+    <!-- Backdrop mờ tối khi mở Mobile Menu Dropdown -->
+    <div id="mobile-nav-backdrop" class="hidden fixed inset-0 top-[105px] bg-slate-950/80 backdrop-blur-sm z-40 transition-opacity" onclick="toggleMobileNav(event)"></div>
+
+  </header>
+
+  <!-- ==================== VIEW CONTAINER 1: KẾ HOẠCH 6 CHẶNG (FULL FUNNEL) ==================== -->
+  <main id="view-plan" class="max-w-[1150px] mx-auto px-4 pt-28 pb-20 space-y-12">
+
+    <!-- ==================== 1. HERO SECTION & BUSINESS CONTEXT ==================== -->
+    <section id="hero" class="text-center pt-6 pb-4 space-y-4">
+      <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-bold tracking-wider uppercase">
+        🚀 BẢN KẾ HOẠCH KINH DOANH & FULL FUNNEL — DỰ ÁN 21 NGÀY AI
+      </div>
+
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white font-display">
+        SafeDrive Auto x <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-amber-400">MLEGEND SLIM 3</span>
+      </h1>
+
+      <p class="text-sm sm:text-base text-slate-400 max-w-3xl mx-auto leading-relaxed">
+        "Chiến lược bán lẻ đèn trợ sáng Bi-LED mùa bão lụt tại Philippines — Phễu bán hàng tự động hóa Messenger & COD giải cứu dứt điểm mục tiêu 80 triệu đồng Tháng 9/2026."
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400 pt-2 pb-4">
+        <span>👤 <strong>Người lập:</strong> Nguyễn Phúc Lộc (Trưởng nhóm)</span>
+        <span>👥 <strong>Team:</strong> Bảo (Vận hành) • Khang (Media)</span>
+        <span>📍 <strong>Thị trường:</strong> Đảo Luzon & Metro Manila (Philippines)</span>
+        <span>📦 <strong>Hạ tầng:</strong> Kho 3PL Manila + J&T Express COD</span>
+      </div>
+
+      <!-- Hero CTA Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto pt-2">
+        <a href="#chang-1" class="w-full sm:w-1/2 py-3 px-6 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 font-bold text-xs sm:text-sm hover:shadow-lg hover:shadow-cyan-500/25 transition-all text-center">
+          Khám Phá Kế Hoạch ➔
+        </a>
+        <button onclick="openModal('00-business-context.md')" class="w-full sm:w-1/2 py-3 px-6 rounded-xl bg-slate-900 border border-slate-700 hover:border-cyan-400 text-white font-semibold text-xs sm:text-sm transition-all flex items-center justify-center space-x-2">
+          <i data-lucide="file-text" class="w-4 h-4 text-cyan-400"></i>
+          <span>Xem Business Context</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== CHẶNG 1: FOUNDATION (NỀN TẢNG KHÁCH HÀNG & KHÁC BIỆT) ==================== -->
+    <section id="chang-1" class="space-y-6">
+      <div class="p-3.5 rounded-xl bg-gradient-to-r from-cyan-500/15 via-slate-900 to-slate-900 border-l-4 border-cyan-400 flex items-center justify-between flex-wrap gap-2">
+        <h3 class="text-sm font-extrabold text-white flex items-center gap-2">
+          <span>🎯 CHẶNG 1: FOUNDATION — NỀN TẢNG KHÁCH HÀNG & KHÁC BIỆT</span>
+        </h3>
+        <span class="text-[10px] font-bold text-cyan-400 bg-cyan-500/10 px-2.5 py-0.5 rounded-full border border-cyan-500/25">
+          Agent 01 • Agent 02 • Agent 03
+        </span>
+      </div>
+
+      <!-- 3-Column Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        
+        <!-- Box 2. Customer Avatar -->
+        <div id="avatar" class="bg-slate-900 p-5 rounded-2xl border border-slate-800 flex flex-col justify-between hover:border-cyan-500/50 hover:-translate-y-1 transition-all shadow-xl">
+          <div class="space-y-3">
+            <span class="text-[10px] font-extrabold text-cyan-400 bg-cyan-500/10 px-2 py-0.5 rounded uppercase tracking-wider inline-block">Chặng 1 · Agent 01</span>
+            <h3 class="text-lg font-extrabold text-white">2. Customer Avatar</h3>
+            <div class="text-xs font-bold text-cyan-400 flex items-center gap-1">
+              <i data-lucide="target" class="w-3.5 h-3.5"></i>
+              <span>Chủ Xe Bán Tải & SUV Đảo Luzon</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Khách hàng là nam giới 28–50 tuổi lái Toyota Hilux, Ford Ranger, Isuzu D-Max, Fortuner, Montero Sport. Nỗi đau lớn nhất là <strong>ác mộng lái xe đêm mưa bão (Habagat) ngập lụt, đèn zin quá mờ</strong> và <strong>nỗi sợ bị CSGT (LTO) phạt vì đèn độ chói mắt</strong>.
+            </p>
+          </div>
+          <button onclick="openModal('01-avatar.md')" class="mt-4 w-full py-2.5 rounded-lg bg-slate-950 border border-slate-700 hover:border-cyan-400 text-xs font-bold text-white transition-all flex items-center justify-center space-x-1.5">
+            <i data-lucide="search" class="w-3.5 h-3.5 text-cyan-400"></i>
+            <span>View Full Avatar (01-avatar.md)</span>
+          </button>
+        </div>
+
+        <!-- Box 3. Brand Voice -->
+        <div id="brand-voice" class="bg-slate-900 p-5 rounded-2xl border border-slate-800 flex flex-col justify-between hover:border-purple-500/50 hover:-translate-y-1 transition-all shadow-xl">
+          <div class="space-y-3">
+            <span class="text-[10px] font-extrabold text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded uppercase tracking-wider inline-block">Chặng 1 · Agent 02</span>
+            <h3 class="text-lg font-extrabold text-white">3. Brand Voice</h3>
+            <div class="text-xs font-bold text-purple-400 flex items-center gap-1">
+              <i data-lucide="mic" class="w-3.5 h-3.5"></i>
+              <span>An Toàn — Đẳng Cấp — LTO Legal</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Giọng văn tiếng Anh thương mại bản địa Philippines (Taglish thân thiện), xưng hô đồng hành <em>"SafeDrive - Filipino Motorists"</em>, tuân thủ nguyên tắc <strong>4 KHÔNG</strong>: Không chém gió lumen ảo, không công kích đối thủ, không quảng bá đèn chói mắt vi phạm LTO, không mập mờ xuất xứ.
+            </p>
+            <div class="bg-slate-950 p-2.5 rounded-lg border-l-2 border-purple-400 italic text-[11px] text-slate-400">
+              "Never risk your family's safety with dim stock lights in typhoon weather — Upgrade to MLEGEND SLIM 3 for razor-sharp, road-legal clarity!"
+            </div>
+          </div>
+          <button onclick="openModal('02-brand-voice.md')" class="mt-4 w-full py-2.5 rounded-lg bg-slate-950 border border-slate-700 hover:border-purple-400 text-xs font-bold text-white transition-all flex items-center justify-center space-x-1.5">
+            <i data-lucide="search" class="w-3.5 h-3.5 text-purple-400"></i>
+            <span>View Brand Voice (02-brand-voice.md)</span>
+          </button>
+        </div>
+
+        <!-- Box 4. Hero Mechanism -->
+        <div id="hero-mechanism" class="bg-slate-900 p-5 rounded-2xl border border-slate-800 flex flex-col justify-between hover:border-emerald-500/50 hover:-translate-y-1 transition-all shadow-xl">
+          <div class="space-y-3">
+            <span class="text-[10px] font-extrabold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded uppercase tracking-wider inline-block">Chặng 1 · Agent 03</span>
+            <h3 class="text-lg font-extrabold text-white">4. Hero Mechanism</h3>
+            <div class="text-xs font-bold text-emerald-400 flex items-center gap-1">
+              <i data-lucide="shield" class="w-3.5 h-3.5"></i>
+              <span>Vệ Sĩ Ánh Sáng 3 Lớp Công Nghệ</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Khách hàng không chỉ mua đèn trợ sáng, họ mua <strong>Sự An Tâm Tuyệt Đối</strong>: (1) Dual-Beam thông minh: Cos trắng đi phố + Pha vàng phá tan sương bão; (2) Đường cắt Laser phẳng 100% không chói mắt, chuẩn luật LTO; (3) Kháng nước bão IP68 ngâm nước không cháy chập.
+            </p>
+          </div>
+          <button onclick="openModal('03-hero-mechanism.md')" class="mt-4 w-full py-2.5 rounded-lg bg-slate-950 border border-slate-700 hover:border-emerald-400 text-xs font-bold text-white transition-all flex items-center justify-center space-x-1.5">
+            <i data-lucide="search" class="w-3.5 h-3.5 text-emerald-400"></i>
+            <span>View Mechanism (03-mechanism.md)</span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CHẶNG 2: MONEY & OFFER (BẢN ĐỒ DÒNG TIỀN & ƯU ĐÃI) ==================== -->
+    <section id="chang-2" class="space-y-6">
+      <div class="p-3.5 rounded-xl bg-gradient-to-r from-amber-500/15 via-slate-900 to-slate-900 border-l-4 border-amber-400 flex items-center justify-between flex-wrap gap-2">
+        <h3 class="text-sm font-extrabold text-white flex items-center gap-2">
+          <span>💰 CHẶNG 2: MONEY & OFFER — BẢN ĐỒ DÒNG TIỀN & ƯU ĐÃI</span>
+        </h3>
+        <span class="text-[10px] font-bold text-amber-400 bg-amber-500/10 px-2.5 py-0.5 rounded-full border border-amber-500/25">
+          Agent 04 • Agent 05 • Agent 06
+        </span>
+      </div>
+
+      <div id="money-model" class="bg-slate-900 p-6 sm:p-7 rounded-2xl border border-slate-800 space-y-6">
+        <div>
+          <span class="text-[10px] font-extrabold text-amber-400 uppercase tracking-wider bg-amber-500/10 px-2.5 py-0.5 rounded">Chặng 2 · Bản Đồ Doanh Thu & Grand Slam Offer</span>
+          <h3 class="text-xl font-extrabold text-white mt-2">5. Money Model & Multi-Channel Pricing Strategy</h3>
+          <p class="text-xs text-slate-400 mt-1">Định giá tối ưu hóa lợi nhuận ròng, đồng thời thiết lập gói ưu đãi không thể cưỡng lại (Grand Slam Offer) cho khách hàng Philippines.</p>
+        </div>
+
+        <!-- 4-Tier Pricing Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-1">
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">SÀN SHOPEE PH</span>
+            <div class="text-base font-bold text-white">Khách Lẻ Sàn</div>
+            <div class="text-xl font-black text-cyan-400">₱10,990</div>
+            <span class="text-[11px] text-slate-400 block">Freeship COD</span>
+          </div>
+
+          <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-1">
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">TIKTOK SHOP PH</span>
+            <div class="text-base font-bold text-white">Video Shopping</div>
+            <div class="text-xl font-black text-amber-400">₱10,990</div>
+            <span class="text-[11px] text-amber-400/80 block">Nhãn Double Day</span>
+          </div>
+
+          <div class="bg-slate-950 p-4 rounded-xl border-2 border-cyan-400 bg-gradient-to-b from-cyan-500/10 to-transparent text-center space-y-1 shadow-lg shadow-cyan-500/10">
+            <span class="text-[10px] font-bold text-cyan-400 uppercase tracking-wider block">⭐ HERO OFFER DIRECT</span>
+            <div class="text-base font-bold text-white">Website / Fanpage</div>
+            <div class="text-2xl font-black text-cyan-400">₱10,490</div>
+            <span class="text-[11px] text-emerald-400 font-bold block">Tối ưu chi phí nhất</span>
+          </div>
+
+          <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-1">
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">GÓI QUÀ TẶNG (BONUS)</span>
+            <div class="text-base font-bold text-white">Trị Giá Kèm Theo</div>
+            <div class="text-xl font-black text-emerald-400">+ ₱2,500 FREE</div>
+            <span class="text-[11px] text-slate-400 block">Relay Kit + Ship + Đổi 12T</span>
+          </div>
+        </div>
+
+        <!-- 3 Buttons Dàn Đều -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+          <button onclick="openModal('04-money-model.md')" class="py-3 px-4 rounded-xl bg-slate-950 border border-slate-700 hover:border-amber-400 text-xs font-bold text-white transition-all flex items-center justify-center space-x-2">
+            <i data-lucide="dollar-sign" class="w-4 h-4 text-amber-400"></i>
+            <span>View Money Model (04-money.md)</span>
+          </button>
+          <button onclick="openModal('05-offer.md')" class="py-3 px-4 rounded-xl bg-slate-950 border border-slate-700 hover:border-amber-400 text-xs font-bold text-white transition-all flex items-center justify-center space-x-2">
+            <i data-lucide="gift" class="w-4 h-4 text-amber-400"></i>
+            <span>View Grand Slam Offer (05-offer.md)</span>
+          </button>
+          <button onclick="openModal('06-lead-magnet.md')" class="py-3 px-4 rounded-xl bg-slate-950 border border-slate-700 hover:border-amber-400 text-xs font-bold text-white transition-all flex items-center justify-center space-x-2">
+            <i data-lucide="magnet" class="w-4 h-4 text-amber-400"></i>
+            <span>View Lead Magnet (06-lead.md)</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CHẶNG 3: FUNNEL BLUEPRINT (KIẾN TRÚC PHỄU BÁN HÀNG) ==================== -->
+    <section id="chang-3" class="space-y-6">
+      <div class="p-3.5 rounded-xl bg-gradient-to-r from-blue-500/15 via-slate-900 to-slate-900 border-l-4 border-blue-400 flex items-center justify-between flex-wrap gap-2">
+        <h3 class="text-sm font-extrabold text-white flex items-center gap-2">
+          <span>🗺️ CHẶNG 3: FUNNEL BLUEPRINT — KIẾN TRÚC PHỄU BÁN HÀNG TỰ ĐỘNG</span>
+        </h3>
+        <span class="text-[10px] font-bold text-blue-400 bg-blue-500/10 px-2.5 py-0.5 rounded-full border border-blue-500/25">
+          Agent 07: Funnel Strategist
+        </span>
+      </div>
+
+      <div id="funnel" class="space-y-3">
+        
+        <!-- STEP 1 -->
+        <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-2">
+          <div class="flex items-center space-x-3">
+            <span class="w-8 h-8 rounded-full bg-cyan-400 text-slate-950 font-black text-sm flex items-center justify-center shrink-0">1</span>
+            <h4 class="text-base font-bold text-white">Traffic Đa Kênh: Facebook Ads Tin Nhắn + TikTok Short Video</h4>
+          </div>
+          <div class="pl-11 space-y-2 text-xs text-slate-300">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">📢 FB Click-to-Messenger</span>
+              <span class="px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">🎬 TikTok Video Khang</span>
+              <span class="px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">🚗 Car Groups PH</span>
+            </div>
+            <p>Nhắm thẳng vào chủ xe bán tải & SUV tại đảo Luzon. Đánh mạnh vào nỗi đau lái xe mùa bão ngập lụt, đèn zin tối mù mịt và cam kết chuẩn LTO không bị phạt.</p>
+          </div>
+        </div>
+
+        <!-- MŨI TÊN KẾT NỐI -->
+        <div class="flex justify-center text-cyan-400 py-1">
+          <div class="w-7 h-7 rounded-full bg-slate-900 border border-cyan-500/30 flex items-center justify-center shadow-lg shadow-cyan-500/20 font-bold text-xs">↓</div>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-2">
+          <div class="flex items-center space-x-3">
+            <span class="w-8 h-8 rounded-full bg-cyan-400 text-slate-950 font-black text-sm flex items-center justify-center shrink-0">2</span>
+            <h4 class="text-base font-bold text-white">Tư Vấn Khép Kín 1-1 Qua Messenger (Tỷ lệ chốt 12 - 15%)</h4>
+          </div>
+          <div class="pl-11 space-y-2 text-xs text-slate-300">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">⚡ Phản hồi &lt; 3 phút</span>
+              <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">📸 Gửi ảnh lắp xe thật</span>
+              <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">🔌 Khẳng định cắm giắc zin</span>
+            </div>
+            <p>Bảo trực chat 18h–23h (giờ vàng lướt mạng tại PH). Kiểm tra chính xác đời xe của khách, gửi ảnh đã lắp đẹp trên đúng dòng xe đó và đưa ra gói giá trực tiếp <strong>₱10,490 Freeship COD</strong>.</p>
+          </div>
+        </div>
+
+        <!-- MŨI TÊN KẾT NỐI -->
+        <div class="flex justify-center text-cyan-400 py-1">
+          <div class="w-7 h-7 rounded-full bg-slate-900 border border-cyan-500/30 flex items-center justify-center shadow-lg shadow-cyan-500/20 font-bold text-xs">↓</div>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-2">
+          <div class="flex items-center space-x-3">
+            <span class="w-8 h-8 rounded-full bg-cyan-400 text-slate-950 font-black text-sm flex items-center justify-center shrink-0">3</span>
+            <h4 class="text-base font-bold text-white">Quy Trình Xác Thực Chống Bom Hàng COD (Anti-RTS Protocol)</h4>
+          </div>
+          <div class="pl-11 space-y-2 text-xs text-slate-300">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">🛡️ Tin nhắn xác nhận trước</span>
+              <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">💵 Nhắc chuẩn bị ₱10,490</span>
+              <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">🔍 Cho phép đồng kiểm</span>
+            </div>
+            <p>Gửi tin nhắn mẫu xác nhận đơn hàng qua Messenger trước khi đẩy đơn sang kho: Khách được mở hộp kiểm tra đúng hàng MLEGEND SLIM 3 nguyên seal mới thanh toán tiền mặt cho shipper J&T.</p>
+          </div>
+        </div>
+
+        <!-- MŨI TÊN KẾT NỐI -->
+        <div class="flex justify-center text-cyan-400 py-1">
+          <div class="w-7 h-7 rounded-full bg-slate-900 border border-cyan-500/30 flex items-center justify-center shadow-lg shadow-cyan-500/20 font-bold text-xs">↓</div>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="bg-slate-900 p-5 rounded-2xl border-2 border-emerald-400 bg-gradient-to-r from-emerald-500/10 to-transparent space-y-2">
+          <div class="flex items-center space-x-3">
+            <span class="w-8 h-8 rounded-full bg-emerald-400 text-slate-950 font-black text-sm flex items-center justify-center shrink-0">4</span>
+            <h4 class="text-base font-bold text-emerald-300">Xuất Kho 3PL Manila & Giao Hỏa Tốc 2-3 Ngày (Thu Tiền Đối Soát)</h4>
+          </div>
+          <div class="pl-11 space-y-2 text-xs text-slate-300">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-bold">📦 Đẩy đơn trước 14h</span>
+              <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-bold">🚚 J&T Express / Flash</span>
+              <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-bold">💰 Đối soát COD chu kỳ tuần</span>
+            </div>
+            <p class="text-emerald-100">Đơn hàng được 3PL đóng gói cẩn thận, phát thành công sau 2-3 ngày tại Manila/Luzon. Tiền COD về tài khoản đối soát, trực tiếp đóng góp vào doanh số thuần 80 triệu Tháng 9.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CHẶNG 4: COPYWRITING FUNNEL ==================== -->
+    <section id="chang-4" class="space-y-6">
+      <div class="p-3.5 rounded-xl bg-gradient-to-r from-purple-500/15 via-slate-900 to-slate-900 border-l-4 border-purple-400 flex items-center justify-between flex-wrap gap-2">
+        <h3 class="text-sm font-extrabold text-white flex items-center gap-2">
+          <span>✍️ CHẶNG 4: COPYWRITING FUNNEL — KHO NỘI DUNG QUẢNG CÁO & VIDEO</span>
+        </h3>
+        <span class="text-[10px] font-bold text-purple-400 bg-purple-500/10 px-2.5 py-0.5 rounded-full border border-purple-500/25">
+          Agent 08 • Agent 09 • Agent 10
+        </span>
+      </div>
+
+      <div id="copywriting" class="space-y-6">
+        
+        <!-- 5 Ad Copy Variations with 1-Click Copy -->
+        <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-4">
+          <div class="flex items-center justify-between">
+            <h3 class="text-base font-extrabold text-white flex items-center gap-2">
+              <i data-lucide="file-text" class="w-4 h-4 text-cyan-400"></i>
+              <span>Kho 5 Mẫu Ad Copy Tiếng Anh Chuẩn Chuyển Đổi Cao (PH Market)</span>
+            </h3>
+            <span class="text-xs text-slate-400">Bấm nút góc phải để copy bài</span>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4">
+
+            <!-- Copy 1 -->
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+              <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+                <span class="text-xs font-bold text-cyan-400">Mẫu 1: Đánh vào Nỗi sợ Mưa Bão & Đường Tối (Pain-Point Focus)</span>
+                <button onclick="copySnippet('copy-1')" class="px-2.5 py-1 rounded bg-slate-800 hover:bg-cyan-400 hover:text-slate-950 text-xs font-semibold text-slate-300 transition-all flex items-center gap-1">
+                  <i data-lucide="copy" class="w-3 h-3"></i>
+                  <span>Copy bài</span>
+                </button>
+              </div>
+              <pre id="copy-1" class="text-xs text-slate-300 whitespace-pre-wrap font-mono leading-relaxed bg-slate-900/60 p-3 rounded">⛈️ Driving through pitch-black provincial roads & heavy downpours with dim stock headlights? Don't leave your family's safety to chance! 🚗💨
+
+Factory halogen lights simply can't handle extreme Philippine weather. Upgrade your ride today with the MLEGEND SLIM 3 Premium Auxiliary Bi-LED Driving Lights — ultimate road clarity, luxury compact design, and 100% road-friendly optics! 🌟🛡️
+
+🔥 ENGINEERED FOR ULTIMATE ROAD SAFETY:
+⚡ Dual-Beam Dominance: 
+* ⚪ Crystal White Low Beam for wide highway clarity
+* 🟡 Golden Amber High Beam to cut through heavy downpours, fog, and flooded roads!
+🎯 Razor-Sharp Cut-Off Line (100% LTO Compliant): Zero blinding glare to oncoming drivers. 
+🌊 True IP68 Waterproofing: Fully submersible and built with aerospace-grade aluminum to conquer Manila floods.
+🚘 Universal Fit: Seamlessly mounts behind grilles or bumper slots on Fortuner, Hilux, Ranger, Montero Sport, Navara, and all vehicles!
+
+🎁 EXCLUSIVE MANILA LAUNCH PROMO:
+🏷️ Direct Web/Page Price: ₱10,490
+🚚 FREE Nationwide Shipping via COD (Inspect item before paying!)
+⚡ FREE Heavy-Duty Waterproof Relay Harness & Switch Kit
+🛡️ 1-Year Local 1-to-1 Replacement Warranty (Manila Stock)
+
+👉 Order Online Directly: https://safedrive-auto.com/auxiliary-lights/auxiliary-lights-mlegend-lim3
+💬 Or tap [Send Message] now with your Car Model & Year to reserve your unit today! 📥👇</pre>
+            </div>
+
+            <!-- Copy 2 -->
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+              <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+                <span class="text-xs font-bold text-cyan-400">Mẫu 2: Đánh vào Nỗi sợ bị CSGT (LTO) phạt & Chống Chói Mắt</span>
+                <button onclick="copySnippet('copy-2')" class="px-2.5 py-1 rounded bg-slate-800 hover:bg-cyan-400 hover:text-slate-950 text-xs font-semibold text-slate-300 transition-all flex items-center gap-1">
+                  <i data-lucide="copy" class="w-3 h-3"></i>
+                  <span>Copy bài</span>
+                </button>
+              </div>
+              <pre id="copy-2" class="text-xs text-slate-300 whitespace-pre-wrap font-mono leading-relaxed bg-slate-900/60 p-3 rounded">🛡️ Want ultra-bright auxiliary lights WITHOUT blinding other drivers or worrying about LTO checkpoints? 👮‍♂️🚗
+
+The MLEGEND SLIM 3 Bi-LED Driving Lights are precision-engineered with German optical technology, featuring a laser-sharp horizontal cut-off line. Light stays focused directly on the pavement — 100% road-legal, respectful, and crystal clear!
+
+🌟 TOP REASONS TO UPGRADE TODAY:
+✅ Dual Optical Mode: Crisp White for city driving + Golden Yellow for heavy rain & fog.
+✅ Heavy-Duty IP68 Waterproof: Ready for deep puddle splashes and harsh weather.
+✅ Plug & Play Installation: No messy wire modifications needed.
+✅ Perfect fit for pickups, SUVs, and sedans (Hilux, Fortuner, Ranger, Everest, Vios, etc.).
+
+🎁 SPECIAL PHILIPPINE LAUNCH OFFER:
+🏷️ Direct Promo Price: ₱10,490 (FREE Nationwide Delivery via COD)
+🔌 FREE Waterproof Relay Wiring Harness & Cabin Switch
+🛡️ 12 Months 1-to-1 Local Replacement Warranty
+
+👉 Visit our official store: https://safedrive-auto.com/auxiliary-lights/auxiliary-lights-mlegend-lim3
+💬 Tap [Send Message] now to confirm compatibility with your vehicle model! 📥</pre>
+            </div>
+
+            <!-- Copy 3 -->
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+              <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+                <span class="text-xs font-bold text-cyan-400">Mẫu 3: Dành riêng cho Xe Bán Tải & SUV (Hilux, Ranger, Fortuner)</span>
+                <button onclick="copySnippet('copy-3')" class="px-2.5 py-1 rounded bg-slate-800 hover:bg-cyan-400 hover:text-slate-950 text-xs font-semibold text-slate-300 transition-all flex items-center gap-1">
+                  <i data-lucide="copy" class="w-3 h-3"></i>
+                  <span>Copy bài</span>
+                </button>
+              </div>
+              <pre id="copy-3" class="text-xs text-slate-300 whitespace-pre-wrap font-mono leading-relaxed bg-slate-900/60 p-3 rounded">💪 BUILT TOUGH FOR PHILIPPINE ROADS & OFF-ROAD TRAILS! 🏞️🚙
+
+Tired of weak headlights fading when you need them most? Equip your SUV or Pickup with the MLEGEND SLIM 3 — the high-performance compact driving lights designed for serious motorists.
+
+⚡ PERFORMANCE HIGHLIGHTS:
+🔹 Penetrating Amber Beam: Slices through zero-visibility fog, typhoon downpours, and unlit trails.
+🔹 High-Lumen White Beam: Expands your peripheral vision to spot road hazards instantly.
+🔹 Military-Grade Forged Aluminum: Superior heat dissipation and indestructible IP68 waterproof rating.
+🔹 Low-Profile Design: Hides discreetly behind grilles without ruining your car's sleek front look.
+
+📦 READY STOCK DISPATCH FROM MANILA:
+🏷️ Official Direct Price: ₱10,490
+🚚 FREE Shipping Nationwide + Cash on Delivery (COD)
+🎁 Includes FREE High-Grade Relay & Switch Wiring Kit
+🛡️ 1-Year Official Warranty with Local Replacement Support
+
+👉 Shop Now: https://safedrive-auto.com/auxiliary-lights/auxiliary-lights-mlegend-lim3
+💬 Tap [Send Message] to get yours delivered to your doorstep in 2-3 days! 📦👇</pre>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 3 Video Scripts for Khang Media -->
+        <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-4">
+          <h3 class="text-base font-extrabold text-white flex items-center gap-2">
+            <i data-lucide="video" class="w-4 h-4 text-purple-400"></i>
+            <span>3 Kịch Bản Video Ngắn 9:16 Cho Khang Media (TikTok / Reels Ads)</span>
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+              <span class="font-bold text-amber-400 block text-xs">VIDEO 1: ÁC MỘNG MƯA ĐÊM</span>
+              <p class="text-slate-300 leading-relaxed">Cảnh tài xế lái xe dưới mưa bão Manila, đèn zin halogen vàng vọt không thấy vũng nước. Bấm bật MLEGEND SLIM 3 $\rightarrow$ Pha vàng rực sáng, xuyên thủng màn mưa, thấy rõ ổ gà.</p>
+            </div>
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+              <span class="font-bold text-cyan-400 block text-xs">VIDEO 2: TEST CẮT SÁNG LTO</span>
+              <p class="text-slate-300 leading-relaxed">Quay ban đêm chiếu đèn vào bức tường: Đường cắt sáng phẳng lỳ, sắc như dao cạo. Camera quay từ vị trí xe đối diện: Hoàn toàn không bị chói mắt $\rightarrow$ 100% Road Legal!</p>
+            </div>
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+              <span class="font-bold text-emerald-400 block text-xs">VIDEO 3: TRA TẤN NGÂM NƯỚC IP68</span>
+              <p class="text-slate-300 leading-relaxed">Bật sáng MLEGEND SLIM 3 rồi thả chìm hoàn toàn vào bể nước ngập bọt hoặc xịt vòi rồng áp lực cao $\rightarrow$ Chứng minh độ bền vô địch chống bão lụt tại Philippines.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CHẶNG 5: SALES TOOLS & OBJECTIONS HANDLING ==================== -->
+    <section id="chang-5" class="space-y-6">
+      <div class="p-3.5 rounded-xl bg-gradient-to-r from-emerald-500/15 via-slate-900 to-slate-900 border-l-4 border-emerald-400 flex items-center justify-between flex-wrap gap-2">
+        <h3 class="text-sm font-extrabold text-white flex items-center gap-2">
+          <span>🎯 CHẶNG 5: SALES TOOLS — VŨ KHÍ CHỐT ĐƠN & XỬ LÝ TỪ CHỐI</span>
+        </h3>
+        <span class="text-[10px] font-bold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/25">
+          Agent 11 • Agent 12
+        </span>
+      </div>
+
+      <div id="sales-tools" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- Script Chốt Đơn Của Bảo -->
+        <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-4">
+          <h3 class="text-base font-extrabold text-white flex items-center gap-2">
+            <i data-lucide="message-square" class="w-4 h-4 text-cyan-400"></i>
+            <span>Kịch Bản Chat 3 Bước Chốt Sale (Bảo CSKH)</span>
+          </h3>
+          <div class="space-y-3 text-xs">
+            <div class="bg-slate-950 p-3 rounded-lg border border-slate-800">
+              <span class="font-bold text-cyan-400 block mb-1">Bước 1: Check Fitment (Hỏi Dòng Xe)</span>
+              <p class="font-mono text-slate-300">"Hello sir! Yes, MLEGEND SLIM 3 is in stock at Manila. It is a 100% plug-and-play fit. What car model and year are you driving?"</p>
+            </div>
+            <div class="bg-slate-950 p-3 rounded-lg border border-slate-800">
+              <span class="font-bold text-amber-400 block mb-1">Bước 2: Gói Giá & Bộ Quà Tặng</span>
+              <p class="font-mono text-slate-300">"Special launch promo is only ₱10,490 with FREE COD shipping + Free Heavy-Duty Relay Switch Harness + 1-Year Local Replacement Warranty!"</p>
+            </div>
+            <div class="bg-slate-950 p-3 rounded-lg border border-slate-800">
+              <span class="font-bold text-emerald-400 block mb-1">Bước 3: Chốt Đơn & Xác Nhận COD</span>
+              <p class="font-mono text-slate-300">"May I have your Complete Delivery Address, Barangay, and Contact Number so J&T can dispatch your package today?"</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bộ Xử Lý 4 Từ Chối Kinh Điển -->
+        <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-4">
+          <div class="flex items-center justify-between">
+            <h3 class="text-base font-extrabold text-white flex items-center gap-2">
+              <i data-lucide="shield-alert" class="w-4 h-4 text-amber-400"></i>
+              <span>Bộ Xử Lý 4 Từ Chối Kinh Điển (Objections)</span>
+            </h3>
+            <button onclick="openModal('08-sales-tools.md')" class="text-xs text-cyan-400 hover:underline">View Full Script</button>
+          </div>
+
+          <div class="space-y-2.5 text-xs text-slate-300">
+            <div class="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
+              <strong class="text-amber-400 block">1. "Có bị Cảnh sát LTO phạt không?"</strong>
+              <p class="text-slate-400 mt-0.5">Khẳng định ngay: MLEGEND SLIM 3 có đường cắt Laser Cut-off ngang, chùm sáng tập trung xuống mặt đường, không chói mắt xe đối diện, 100% hợp lệ khi kiểm tra LTO.</p>
+            </div>
+            <div class="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
+              <strong class="text-amber-400 block">2. "Có phải cắt dây điện xe mất bảo hành hãng?"</strong>
+              <p class="text-slate-400 mt-0.5">Không cắt bất kỳ sợi dây nào! Tặng kèm bộ dây nguồn rơ-le chuyên dụng đấu trực tiếp qua cầu chì và công tắc riêng trong cabin.</p>
+            </div>
+            <div class="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
+              <strong class="text-amber-400 block">3. "Tại sao giá ₱10,490 đắt hơn đèn ₱2,000 trên Shopee?"</strong>
+              <p class="text-slate-400 mt-0.5">Đèn rẻ tiền trên Shopee là nhựa mỏng, dễ hấp hơi nước cháy chip sau 1 tháng và làm chói mắt bị phạt. MLEGEND SLIM 3 là nhôm hàng không, chống nước IP68 và bảo hành 1 đổi 1 trong 12 tháng tại Manila.</p>
+            </div>
+            <div class="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
+              <strong class="text-amber-400 block">4. "Sợ hàng giả, không dám mua online?"</strong>
+              <p class="text-slate-400 mt-0.5">Chúng tôi hỗ trợ 100% Cash On Delivery (COD): Bạn được mở hộp kiểm tra đúng sản phẩm nguyên seal trước khi trả tiền cho shipper.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CHẶNG 6: ROADMAP & DAILY TEAM CHECKLIST ==================== -->
+    <section id="chang-6" class="space-y-6">
+      <div class="p-3.5 rounded-xl bg-gradient-to-r from-red-500/15 via-slate-900 to-slate-900 border-l-4 border-red-400 flex items-center justify-between flex-wrap gap-2">
+        <h3 class="text-sm font-extrabold text-white flex items-center gap-2">
+          <span>🚀 CHẶNG 6: ROADMAP, SOP & CHECKLIST TÁC CHIẾN HẰNG NGÀY</span>
+        </h3>
+        <span class="text-[10px] font-bold text-red-400 bg-red-500/10 px-2.5 py-0.5 rounded-full border border-red-500/25">
+          Agent 13: Project Orchestrator
+        </span>
+      </div>
+
+      <div id="roadmap" class="bg-slate-900 p-6 sm:p-7 rounded-2xl border border-slate-800 space-y-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
+          <div>
+            <h3 class="text-lg font-extrabold text-white flex items-center gap-2">
+              <i data-lucide="calendar-check" class="w-5 h-5 text-cyan-400"></i>
+              <span>Bảng Phân Công Nhiệm Vụ 3 Nhân Sự (Tự Động Lưu Trình Duyệt)</span>
+            </h3>
+            <p class="text-xs text-slate-400 mt-0.5">Tích vào các ô khi hoàn thành nhiệm vụ. Dữ liệu được lưu trực tiếp trên máy tính của bạn.</p>
+          </div>
+          <button onclick="resetTasks()" class="text-xs text-slate-400 hover:text-cyan-400 transition-colors self-start sm:self-auto">
+            Đặt lại checklist
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <!-- Lộc -->
+          <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+              <span class="text-xs font-bold text-cyan-400 flex items-center gap-1">
+                <i data-lucide="user" class="w-3.5 h-3.5"></i>
+                <span>Lộc (Lead / Ads / B2B)</span>
+              </span>
+              <span class="text-[9px] bg-cyan-500/10 text-cyan-400 px-1.5 py-0.5 rounded">Chiến Lược</span>
+            </div>
+            <div class="space-y-2 text-xs text-slate-300">
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-loc-1" onchange="syncTasks()" class="rounded border-slate-700 text-cyan-500 bg-slate-900 mt-0.5">
+                <span>Set camp FB Ads tin nhắn (800k - 1tr/ngày)</span>
+              </label>
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-loc-2" onchange="syncTasks()" class="rounded border-slate-700 text-cyan-500 bg-slate-900 mt-0.5">
+                <span>Kiểm tra thẻ thanh toán & pixel ads</span>
+              </label>
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-loc-3" onchange="syncTasks()" class="rounded border-slate-700 text-cyan-500 bg-slate-900 mt-0.5">
+                <span>Chào sỉ 5 garage ô tô lớn tại Manila</span>
+              </label>
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-loc-4" onchange="syncTasks()" class="rounded border-slate-700 text-cyan-500 bg-slate-900 mt-0.5">
+                <span>Báo cáo số liệu CPO & đối soát cuối ngày</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Bảo -->
+          <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+              <span class="text-xs font-bold text-amber-400 flex items-center gap-1">
+                <i data-lucide="user" class="w-3.5 h-3.5"></i>
+                <span>Bảo (Vận Hành & CSKH)</span>
+              </span>
+              <span class="text-[9px] bg-amber-500/10 text-amber-400 px-1.5 py-0.5 rounded">Chốt Đơn</span>
+            </div>
+            <div class="space-y-2 text-xs text-slate-300">
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-bao-1" onchange="syncTasks()" class="rounded border-slate-700 text-amber-500 bg-slate-900 mt-0.5">
+                <span>Cài đặt Quick Replies kịch bản tiếng Anh</span>
+              </label>
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-bao-2" onchange="syncTasks()" class="rounded border-slate-700 text-amber-500 bg-slate-900 mt-0.5">
+                <span>Trực chat phản hồi &lt; 3 phút (18h–23h)</span>
+              </label>
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-bao-3" onchange="syncTasks()" class="rounded border-slate-700 text-amber-500 bg-slate-900 mt-0.5">
+                <span>Gửi tin nhắn xác thực chống bom hàng COD</span>
+              </label>
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-bao-4" onchange="syncTasks()" class="rounded border-slate-700 text-amber-500 bg-slate-900 mt-0.5">
+                <span>Bắn đơn sang portal 3PL trước 14h00</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Khang -->
+          <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+              <span class="text-xs font-bold text-purple-400 flex items-center gap-1">
+                <i data-lucide="user" class="w-3.5 h-3.5"></i>
+                <span>Khang (Media & Video)</span>
+              </span>
+              <span class="text-[9px] bg-purple-500/10 text-purple-400 px-1.5 py-0.5 rounded">Sáng Tạo</span>
+            </div>
+            <div class="space-y-2 text-xs text-slate-300">
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-khang-1" onchange="syncTasks()" class="rounded border-slate-700 text-purple-500 bg-slate-900 mt-0.5">
+                <span>Render Video 1 (Cảnh mưa bão & MLEGEND SLIM 3)</span>
+              </label>
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-khang-2" onchange="syncTasks()" class="rounded border-slate-700 text-purple-500 bg-slate-900 mt-0.5">
+                <span>Render Video 2 (Test đường cắt sáng chuẩn LTO)</span>
+              </label>
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-khang-3" onchange="syncTasks()" class="rounded border-slate-700 text-purple-500 bg-slate-900 mt-0.5">
+                <span>Thiết kế 3 ảnh thumbnail có giá ₱10,490</span>
+              </label>
+              <label class="flex items-start gap-2 cursor-pointer hover:text-white">
+                <input type="checkbox" id="t-khang-4" onchange="syncTasks()" class="rounded border-slate-700 text-purple-500 bg-slate-900 mt-0.5">
+                <span>Đăng reup video lên TikTok & YouTube Shorts</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== VIEW CONTAINER 2: MÔ HÌNH BMC 9 KHỐI (STANDALONE DEDICATED VIEW) ==================== -->
+  <main id="view-bmc" class="hidden max-w-[1350px] mx-auto px-4 pt-28 pb-20 space-y-8">
+    
+    <!-- BMC Header Banner -->
+    <div class="bg-gradient-to-r from-slate-900 via-slate-900 to-emerald-950/40 p-6 sm:p-8 rounded-2xl border border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-6 shadow-2xl">
+      <div class="space-y-2">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+          <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>
+          <span>Bản Đồ Chiến Lược Toàn Diện</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight font-display">
+          MÔ HÌNH KINH DOANH (BUSINESS MODEL CANVAS) — MLEGEND SLIM 3
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-400 max-w-2xl leading-relaxed">
+          Bản chụp chiến lược 9 khối cô đọng mô hình phân phối đèn Bi-LED xuyên biên giới sang Philippines (Kho 3PL Manila), phục vụ báo cáo Ban Giám Đốc và Pitching Vườn Ươm.
+        </p>
+      </div>
+
+      <div class="flex items-center gap-3 shrink-0">
+        <button onclick="switchMasterView('plan')" class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-cyan-400 hover:text-slate-950 text-xs font-bold text-white transition-all flex items-center gap-2 border border-slate-700">
+          <i data-lucide="arrow-left" class="w-4 h-4"></i>
+          <span>Quay lại Kế Hoạch 6 Chặng</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- 9 BOXES CANONICAL GRID -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+      
+      <!-- Box 8: ĐỐI TÁC (Key Partners) -->
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 flex flex-col justify-between space-y-3 shadow-lg">
+        <div>
+          <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+            <span class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
+              <i data-lucide="handshake" class="w-3.5 h-3.5 text-blue-400"></i>
+              <span>8. ĐỐI TÁC (Ngoại lực)</span>
+            </span>
+          </div>
+          <ul class="space-y-2.5 text-xs text-slate-300 leading-relaxed">
+            <li>• <strong>Nhà máy MLEGEND:</strong> Cung ứng thiết bị đèn, linh kiện rơ-le công tắc.</li>
+            <li>• <strong>Kho 3PL Philippines:</strong> Lưu kho, đóng gói, bàn giao bưu tá hằng ngày tại Manila.</li>
+            <li>• <strong>Đơn vị vận chuyển:</strong> J&T Express PH, Ninja Van PH (giao hàng & thu hộ COD toàn quốc).</li>
+            <li>• <strong>Garage tại Manila:</strong> Kênh chào sỉ & điểm hỗ trợ kỹ thuật lắp đặt.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Box 7 & 6 (Column 2) -->
+      <div class="flex flex-col gap-4">
+        <!-- Box 7: HÀNH ĐỘNG TRỌNG YẾU -->
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-2 flex-1 shadow-lg">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-2">
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+              <i data-lucide="activity" class="w-3.5 h-3.5"></i>
+              <span>7. HÀNH ĐỘNG TRỌNG YẾU</span>
+            </span>
+          </div>
+          <ul class="space-y-1.5 text-xs text-slate-300 leading-relaxed">
+            <li>• Chạy FB Ads tin nhắn nhắm xe bán tải/SUV đảo Luzon.</li>
+            <li>• CSKH trực chat phản hồi &lt; 3 phút (18h-23h).</li>
+            <li>• Bắn đơn sang 3PL trước 14h00 hàng ngày.</li>
+            <li>• Theo dõi phát hàng và đối soát tiền COD.</li>
+          </ul>
+        </div>
+
+        <!-- Box 6: NGUỒN LỰC -->
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-2 flex-1 shadow-lg">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-2">
+            <span class="text-xs font-bold text-cyan-400 uppercase tracking-wider flex items-center gap-1.5">
+              <i data-lucide="cpu" class="w-3.5 h-3.5"></i>
+              <span>6. NGUỒN LỰC (Nội lực)</span>
+            </span>
+          </div>
+          <ul class="space-y-1.5 text-xs text-slate-300 leading-relaxed">
+            <li>• <strong>Vật lực:</strong> 20 bộ MLEGEND SLIM 3 tại Manila + 40 bộ tồn VN.</li>
+            <li>• <strong>Nhân lực:</strong> Team 3 người (Lộc, Bảo, Khang).</li>
+            <li>• <strong>Hệ lực:</strong> AI sinh nội dung, kịch bản, chatbot.</li>
+            <li>• <strong>Tài lực:</strong> Ngân sách Ads 10-15 triệu VND.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Box 2: GIẢI PHÁP GIÁ TRỊ (Center Column) -->
+      <div class="bg-slate-900 p-5 rounded-2xl border-2 border-amber-500/40 bg-gradient-to-b from-amber-500/10 to-transparent flex flex-col justify-between space-y-3 shadow-xl">
+        <div>
+          <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+              <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+              <span>2. GIẢI PHÁP GIÁ TRỊ</span>
+            </span>
+          </div>
+          <ul class="space-y-2.5 text-xs text-slate-200 leading-relaxed">
+            <li>• <strong>Đèn Bi-LED MLEGEND SLIM 3:</strong> An toàn mùa mưa bão Philippines.</li>
+            <li>• <strong>Dual-Beam:</strong> Cos trắng đi phố + Pha vàng xuyên mưa bão.</li>
+            <li>• <strong>Chuẩn LTO:</strong> Cắt sáng phẳng, 100% không chói mắt xe đối diện.</li>
+            <li>• <strong>Chống nước IP68:</strong> Ngâm nước, lội ngập không cháy bóng.</li>
+            <li>• <strong>Thiết kế SLIM:</strong> Gắn kín giấu ca-lăng, giữ trọn dáng zin.</li>
+            <li>• <strong>Bảo hành 12 tháng:</strong> 1 đổi 1 ngay tại kho Manila.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Box 4 & 3 (Column 4) -->
+      <div class="flex flex-col gap-4">
+        <!-- Box 4: QUAN HỆ KHÁCH HÀNG -->
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-2 flex-1 shadow-lg">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-2">
+            <span class="text-xs font-bold text-purple-400 uppercase tracking-wider flex items-center gap-1.5">
+              <i data-lucide="heart-handshake" class="w-3.5 h-3.5"></i>
+              <span>4. QUAN HỆ KHÁCH HÀNG</span>
+            </span>
+          </div>
+          <ul class="space-y-1.5 text-xs text-slate-300 leading-relaxed">
+            <li>• Tư vấn 1-1 bằng tiếng Anh qua FB Messenger.</li>
+            <li>• Kiểm tra hàng trước khi trả tiền (Inspect before pay).</li>
+            <li>• Kích hoạt bảo hành đổi mới 12 tháng từ kho Manila.</li>
+            <li>• Hỗ trợ kỹ thuật và sơ đồ đấu dây từ xa.</li>
+          </ul>
+        </div>
+
+        <!-- Box 3: KÊNH -->
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-2 flex-1 shadow-lg">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-2">
+            <span class="text-xs font-bold text-orange-400 uppercase tracking-wider flex items-center gap-1.5">
+              <i data-lucide="radio" class="w-3.5 h-3.5"></i>
+              <span>3. KÊNH (Channels)</span>
+            </span>
+          </div>
+          <ul class="space-y-1.5 text-xs text-slate-300 leading-relaxed">
+            <li>• <strong>Thông tin:</strong> FB Ads Mess, TikTok Ads, Web/Page.</li>
+            <li>• <strong>Phân phối:</strong> Kho 3PL nội địa tại Metro Manila.</li>
+            <li>• <strong>Giao hàng:</strong> Chuyển phát J&T / Ninja Van (2-3 ngày).</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Box 1: THỊ TRƯỜNG & KHÁCH HÀNG (Right Column) -->
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 flex flex-col justify-between space-y-3 shadow-lg">
+        <div>
+          <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+            <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider flex items-center gap-1.5">
+              <i data-lucide="users" class="w-3.5 h-3.5"></i>
+              <span>1. THỊ TRƯỜNG & KHÁCH</span>
+            </span>
+          </div>
+          <ul class="space-y-2.5 text-xs text-slate-300 leading-relaxed">
+            <li>• <strong>Địa bàn trọng điểm:</strong> Đảo Luzon & Metro Manila (mưa bão ngập lụt, thiếu đèn đường).</li>
+            <li>• <strong>Chân dung chính (70%):</strong> Chủ xe Bán tải (Hilux, Ranger, D-Max) & SUV (Fortuner, Montero).</li>
+            <li>• <strong>Chân dung phụ (30%):</strong> Xe gia đình (Innova, Vios, Xpander).</li>
+            <li>• <strong>Nỗi đau:</strong> Đèn zin halogen quá tối, sợ tai nạn khi mưa bão, sợ bị CSGT phạt chói mắt.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Row: 2 Big Columns (Chi Phí & Nguồn Thu) -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- Box 9: CHI PHÍ -->
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-3 shadow-lg">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+          <span class="text-xs font-bold text-red-400 uppercase tracking-wider flex items-center gap-1.5">
+            <i data-lucide="wallet-cards" class="w-3.5 h-3.5"></i>
+            <span>9. CƠ CẤU CHI PHÍ</span>
+          </span>
+        </div>
+        <div class="grid grid-cols-2 gap-2 text-xs text-slate-300">
+          <div>• <strong>COGS:</strong> ~₱4,500/bộ</div>
+          <div>• <strong>Chi phí Ads:</strong> ~₱950/đơn (Target CPO)</div>
+          <div>• <strong>Phí 3PL & Ship COD:</strong> ~₱350/đơn</div>
+          <div>• <strong>Dự phòng hoàn hàng (5%):</strong> ~₱250/đơn</div>
+        </div>
+        <div class="text-[11px] text-slate-400 border-t border-slate-800/60 pt-2">
+          ⚡ <strong>Điểm hòa vốn:</strong> Bán 3 đơn là hoàn vốn tiền Ads; từ đơn thứ 4 sinh lãi ròng.
+        </div>
+      </div>
+
+      <!-- Box 5: NGUỒN THU -->
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-3 shadow-lg">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+          <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider flex items-center gap-1.5">
+            <i data-lucide="badge-dollar-sign" class="w-3.5 h-3.5"></i>
+            <span>5. DÒNG DOANH THU</span>
+          </span>
+        </div>
+        <div class="grid grid-cols-2 gap-2 text-xs text-slate-300">
+          <div>• <strong>Web / Fanpage:</strong> ₱10,490 (~4.75M VND)</div>
+          <div>• <strong>Shopee / TikTok Shop:</strong> ₱10,990</div>
+          <div>• <strong>Lợi nhuận gộp/đơn:</strong> +₱4,440 (~2M VND)</div>
+          <div>• <strong>Tiềm năng lô 20 bộ:</strong> ~92.000.000đ - 95.000.000đ</div>
+        </div>
+        <div class="text-[11px] text-emerald-400 border-t border-slate-800/60 pt-2 font-semibold">
+          🎯 Đóng góp hoàn thành 100% KPI 80 triệu Tháng 9 của Phòng E-Com MTG.
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="border-t border-slate-800 bg-slate-950/80 py-8 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 space-y-2">
+      <p>SafeDrive Global Auto • Hệ Thống Quản Trị Chiến Dịch Bán Lẻ Xuyên Biên Giới (Philippines & Malaysia)</p>
+      <p>Dự án Thử Thách 21 Ngày Ứng Dụng AI • Bản Quyền Thuộc Về Phòng E-Commerce MTG</p>
+    </div>
+  </footer>
+
+  <!-- ==================== MODAL ASSET VIEWER (MARKDOWN POPUP) ==================== -->
+  <div id="modal-overlay" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl w-full max-w-3xl max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
+      <!-- Modal Header -->
+      <div class="p-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/50">
+        <h3 id="modal-title" class="text-sm font-extrabold text-cyan-400 flex items-center gap-2 font-display">
+          <i data-lucide="file-code" class="w-4 h-4"></i>
+          <span>Tài Liệu Chi Tiết</span>
+        </h3>
+        <button onclick="closeModal()" class="text-slate-400 hover:text-white text-lg font-bold p-1">✕</button>
+      </div>
+      <!-- Modal Content Body (Markdown Rendered) -->
+      <div id="modal-body" class="modal-body p-6 overflow-y-auto text-slate-300">
+        <!-- Rendered markdown goes here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== NOTIFICATION TOAST ==================== -->
+  <div id="toast" class="fixed bottom-6 right-6 bg-cyan-400 text-slate-950 font-bold px-4 py-2.5 rounded-xl shadow-2xl transition-all duration-300 transform translate-y-20 opacity-0 flex items-center space-x-2 text-sm z-50">
+    <i data-lucide="check" class="w-4 h-4"></i>
+    <span id="toast-text">Đã sao chép nội dung thành công!</span>
+  </div>
+
+  <!-- ==================== EMBEDDED MARKDOWN DOCS STORE ==================== -->
+  <script>
+    const DOCS_STORE = {
+      '00-business-context.md': `# 00. BỐI CẢNH DOANH NGHIỆP & MỤC TIÊU CHIẾN LƯỢC T9/2026
+
+## 1. Tổng Quan Dự Án
+* **Doanh nghiệp:** SafeDrive Auto (Phòng E-Commerce MTG).
+* **Mục tiêu quý 3-4/2026:** Doanh thu thuần lũy kế đạt **2.000.000.000 VNĐ** tại thị trường Philippines & Malaysia.
+* **Mục tiêu cấp bách Tháng 9:** Đạt **50 - 80 triệu đồng doanh thu thuần**.
+* **Tình thế thực tế hiện tại:** Shopee cá nhân bị quét khóa 2 lần (đóng băng kênh sàn), doanh thu hiện tại = 0, cần đột phá doanh số từ hàng sẵn có tại kho.
+
+## 2. Nguồn Lực Đã Có Sẵn Tại Philippines
+* Đã đưa thành công **20 bộ MLEGEND SLIM 3** và **22 bộ DCTECH DC H300 ULTRA** sang kho đối tác 3PL tại Metro Manila.
+* Tổng giá trị hàng hóa thực tế đang nằm tại Philippines: **~170.000.000 - 180.000.000 VNĐ**.
+* **Đột phá chiến lược:** Tập trung toàn bộ hỏa lực bán lẻ mã **MLEGEND SLIM 3** qua phễu Facebook Ads Messenger + TikTok Shop (COD nội địa), giải quyết trọn vẹn KPI 80 triệu mà không phụ thuộc vào Shopee!`,
+
+      '01-avatar.md': `# 01. CHÂN DUNG KHÁCH HÀNG MỤC TIÊU (CUSTOMER AVATAR PROFILE)
+
+## 1. Phân Khúc Chủ Lực: Chủ Xe Bán Tải & SUV (Chiếm 70% Doanh Số)
+* **Dòng xe sở hữu:** Toyota Hilux, Ford Ranger, Isuzu D-Max, Toyota Fortuner, Mitsubishi Montero Sport.
+* **Khu vực địa lý:** Metro Manila, Bulacan, Cavite, Laguna, Rizal và các tỉnh thuộc đảo Luzon.
+* **Độ tuổi:** Nam giới, 28 – 50 tuổi. Thu nhập khá, tự chủ tài chính.
+* **Hành vi & Phong cách sống:** Thường xuyên lái xe đường dài, đi công tác tỉnh (Probinsya), đi phượt cuối tuần cùng gia đình, thích trang bị xe hầm hố và phong cách ("Porma").
+
+## 2. Nỗi Đau Lớn Nhất (Pain Points)
+1. **Ác mộng mùa bão (Typhoon Habagat Season):** Mưa như trút nước, ngập đường ở Manila, sương mù dày đặc ở các cung đèo dốc. Đèn halogen zin của xe bị tán xạ ánh sáng, mờ tịt không thấy ổ gà hay chướng ngại vật.
+2. **Nỗi sợ cảnh sát LTO phạt:** Cực kỳ sợ độ đèn gây chói mắt người đối diện dẫn đến bị bắt phạt, giam bằng lái tại các trạm kiểm soát LTO.
+3. **Sợ hư xe / mất bảo hành:** Sợ thợ cắt dây điện xe gây chập cháy hoặc mất bảo hành chính hãng của Toyota/Ford.`,
+
+      '02-brand-voice.md': `# 02. BRAND VOICE GUIDELINES — SAFEDRIVE PHILIPPINES
+
+## 1. Tuyên Ngôn Giọng Điệu (Tone of Voice)
+* **Chuyên nghiệp & Bản địa:** Sử dụng tiếng Anh thương mại chuẩn Philippines (pha Taglish tự nhiên khi tư vấn chat trực tiếp).
+* **Đồng hành & Đáng tin cậy:** Định vị SafeDrive là người bạn đồng hành an toàn của các tài xế Philippines (*"Your Ultimate Road Safety Companion"*).
+* **Tập trung vào An Toàn & Tuân Thủ Pháp Luật:** Khẳng định 100% đạt chuẩn LTO, tôn trọng người đi ngược chiều.
+
+## 2. Nguyên Tắc 4 KHÔNG
+1. **KHÔNG** nói quá thông số lumen ảo (không dùng con số vô nghĩa 50,000Lm như đèn trôi nổi).
+2. **KHÔNG** công kích dìm hàng đối thủ cạnh tranh.
+3. **KHÔNG** quảng bá đèn phá chói mắt gây nguy hiểm giao thông.
+4. **KHÔNG** mập mờ về giá và nguồn gốc hàng hóa.`,
+
+      '03-hero-mechanism.md': `# 03. HERO MECHANISM — CƠ CHẾ VỆ SĨ ÁNH SÁNG 3 LỚP
+
+## 1. Dual-Beam Quang Học Độc Quyền
+* **Low Beam (Cos):** Dải sáng trắng tinh khiết (Crystal White) trải rộng 140 độ, chiếu sáng sát mặt đường trong đô thị.
+* **High Beam (Pha):** Ánh sáng vàng hổ phách (Golden Amber) gom tâm cực mạnh, bước sóng dài xuyên thủng màn sương và mưa bão, không bị phản xạ ánh sáng ngược vào mắt tài xế.
+
+## 2. Đường Cắt Laser Cut-off Phẳng (100% LTO Compliant)
+* Ống kính quang học công nghệ Đức hội tụ ánh sáng xuống mặt đường với đường cắt ngang sắc bén.
+* Phía trên đường cắt hoàn toàn không có ánh sáng dư thừa $\rightarrow$ Không gây chói mắt cho xe đi ngược chiều, không lo bị CSGT LTO xử phạt.
+
+## 3. Kháng Nước Tuyệt Đối Chuẩn IP68
+* Vỏ hợp kim nhôm hàng không đúc nguyên khối CNC, tản nhiệt chân không siêu tốc.
+* Ngâm sâu dưới nước 1 mét vẫn hoạt động bền bỉ, thách thức mọi cung đường ngập lụt tại Manila.`,
+
+      '04-money-model.md': `# 04. MONEY MODEL & UNIT ECONOMICS CHI TIẾT
+
+## 1. Bảng Phân Tích Kinh Tế Đơn Vị (1 Bộ MLEGEND SLIM 3)
+* **Giá bán lẻ trực tiếp (Web/Page):** ₱10,490 (~4.750.000 VNĐ)
+* **Giá vốn hàng bán (COGS):** ₱4,500 (~2.040.000 VNĐ)
+* **Chi phí Quảng cáo mục tiêu (Target CAC):** ₱950 (~430.000 VNĐ)
+* **Phí đóng gói kho 3PL Manila + Ship COD:** ₱350 (~158.000 VNĐ)
+* **Dự phòng rủi ro hoàn hàng (RTS ~5%):** ₱250 (~113.000 VNĐ)
+* **LỢI NHUẬN GỘP ĐÓNG GÓP / 1 ĐƠN:** **+ ₱4,440 (~2.009.000 VNĐ)**
+* **Tỷ suất lợi nhuận gộp:** **~42.3% trên doanh thu**.
+
+## 2. Điểm Hòa Vốn (Break-even Analysis)
+* Chỉ cần bán **3 bộ đầu tiên** là hoàn vốn toàn bộ chi phí thử nghiệm Ads.
+* Bán đến bộ thứ **18 - 20** là đạt **90 - 95 triệu doanh thu thuần**, vượt 100% KPI Tháng 9!`,
+
+      '05-offer.md': `# 05. GRAND SLAM OFFER — ƯU ĐÃI KHÔNG THỂ TỪ CHỐI
+
+## Trọn Gói Ưu Đãi MLEGEND SLIM 3 (Trị Giá ₱14,490 chỉ còn ₱10,490)
+1. **Bộ Đèn Bi-LED MLEGEND SLIM 3:** Giá gốc ₱11,990.
+2. **FREE Heavy-Duty Waterproof Relay Harness & Switch Kit (Trị giá ₱1,500):** Tặng kèm bộ rơ-le chịu nhiệt và công tắc gắn trong cabin, cắm giắc an toàn không cắt dây xe.
+3. **FREE Nationwide COD Delivery (Trị giá ₱400):** Miễn phí vận chuyển toàn Philippines, nhận hàng mở kiểm tra mới thanh toán.
+4. **1-Year 1-to-1 Replacement Local Warranty (Trị giá ₱600):** Bảo hành đổi mới trực tiếp từ kho Manila, không phải gửi hàng về nước ngoài.`,
+
+      '06-lead-magnet.md': `# 06. LEAD MAGNET — MỒI THU HÚT KHÁCH HÀNG TIỀM NĂNG
+
+## Tên Tài Liệu: "Luzon Monsoon Driving Safety & LTO Auxiliary Lights Compliance Guide 2026"
+* **Định dạng:** Ebook PDF A4 (12 trang).
+* **Nội dung:**
+  1. Bản đồ 25 điểm ngập lụt sâu nhất mùa bão tại Metro Manila.
+  2. Toàn văn thông tư của LTO về quy định lắp đèn trợ sáng trên ô tô (độ cao, độ sáng, đường cắt).
+  3. Hướng dẫn tự kiểm tra và căn chỉnh góc chiếu đèn chuẩn đăng kiểm.
+* **Cách dùng:** Chạy bài viết tặng tài liệu miễn phí để thu thập tệp số điện thoại/email các chủ xe tại Philippines trước khi retargeting quảng cáo bán đèn.`,
+
+      '08-sales-tools.md': `# 08. SALES SCRIPTS & XỬ LÝ TỪ CHỐI CHI TIẾT (CHO BẢO CSKH)
+
+## Kịch Bản Bẻ Gãy 4 Nỗi Sợ Kinh Điển:
+
+### 1. Khách hỏi: "Is it legal under LTO rules?"
+> *"Yes sir, 100% legal! LTO strictly prohibits driving lights that blind oncoming motorists. The MLEGEND SLIM 3 features a precision horizontal cut-off laser line that keeps the light aimed directly onto the asphalt without shining into other drivers' eyes. It is fully road-compliant!"*
+
+### 2. Khách hỏi: "Do I need to splice my factory wires?"
+> *"No wire cutting needed, sir! Every order includes a FREE heavy-duty plug-and-play wiring harness with an independent fuse and cabin switch. Your vehicle's factory warranty remains 100% intact."*
+
+### 3. Khách hỏi: "Why is it ₱10,490 when Shopee has lights for ₱2,000?"
+> *"Those cheap plastic lights overheat, yellow out, and often burn their chips during heavy rains, leaving you stranded in the dark. The MLEGEND SLIM 3 uses aerospace forged aluminum, true IP68 submersible waterproofing, and comes with an official 1-Year Local Replacement Warranty directly supported from our Manila warehouse."*
+
+### 4. Khách sợ lừa đảo COD:
+> *"We offer 100% Cash on Delivery nationwide via J&T Express. You can inspect the package upon arrival before handing payment to the rider!"*`
+    };
+
+    // Lucide Init
+    lucide.createIcons();
+
+    // Master View Switcher (Plan vs BMC)
+    function switchMasterView(mode) {
+      const viewPlan = document.getElementById('view-plan');
+      const viewBmc = document.getElementById('view-bmc');
+      const subNav = document.getElementById('sub-nav-plan');
+      const btnPlan = document.getElementById('master-btn-plan');
+      const btnBmc = document.getElementById('master-btn-bmc');
+
+      if (mode === 'bmc') {
+        viewPlan.classList.add('hidden');
+        viewBmc.classList.remove('hidden');
+        subNav.classList.add('hidden');
+        document.getElementById('mobile-nav-backdrop')?.classList.add('hidden');
+        document.getElementById('mobile-nav-menu')?.classList.add('hidden');
+        document.getElementById('mobile-nav-arrow')?.classList.remove('rotate-180');
+
+        btnBmc.classList.add('bg-cyan-400', 'text-slate-950', 'shadow-md', 'shadow-cyan-400/20');
+        btnBmc.classList.remove('text-slate-400');
+        btnPlan.classList.remove('bg-cyan-400', 'text-slate-950', 'shadow-md', 'shadow-cyan-400/20');
+        btnPlan.classList.add('text-slate-400');
+      } else {
+        viewBmc.classList.add('hidden');
+        viewPlan.classList.remove('hidden');
+        subNav.classList.remove('hidden');
+
+        btnPlan.classList.add('bg-cyan-400', 'text-slate-950', 'shadow-md', 'shadow-cyan-400/20');
+        btnPlan.classList.remove('text-slate-400');
+        btnBmc.classList.remove('bg-cyan-400', 'text-slate-950', 'shadow-md', 'shadow-cyan-400/20');
+        btnBmc.classList.add('text-slate-400');
+      }
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      lucide.createIcons();
+    }
+
+    // Mobile Navigation Controller
+    function toggleMobileNav(e) {
+      if (e) e.stopPropagation();
+      const menu = document.getElementById('mobile-nav-menu');
+      const arrow = document.getElementById('mobile-nav-arrow');
+      const backdrop = document.getElementById('mobile-nav-backdrop');
+      if (!menu) return;
+      const isHidden = menu.classList.contains('hidden');
+      if (isHidden) {
+        menu.classList.remove('hidden');
+        backdrop?.classList.remove('hidden');
+        arrow?.classList.add('rotate-180');
+      } else {
+        menu.classList.add('hidden');
+        backdrop?.classList.add('hidden');
+        arrow?.classList.remove('rotate-180');
+      }
+    }
+
+    function selectMobileNav(label, targetId) {
+      const labelEl = document.getElementById('mobile-nav-label');
+      if (labelEl) labelEl.innerText = label;
+      const menu = document.getElementById('mobile-nav-menu');
+      const arrow = document.getElementById('mobile-nav-arrow');
+      const backdrop = document.getElementById('mobile-nav-backdrop');
+      menu?.classList.add('hidden');
+      backdrop?.classList.add('hidden');
+      arrow?.classList.remove('rotate-180');
+      setActiveNav(targetId);
+    }
+
+    function setActiveNav(targetId) {
+      document.querySelectorAll('.mobile-nav-pill').forEach(el => {
+        el.classList.remove('bg-cyan-400', 'text-slate-950', 'border-cyan-400');
+        el.classList.add('bg-slate-900', 'text-slate-300', 'border-slate-800');
+      });
+      const activeEl = document.querySelector(`a[href="#${targetId}"].mobile-nav-pill`);
+      if (activeEl) {
+        activeEl.classList.remove('bg-slate-900', 'text-slate-300', 'border-slate-800');
+        activeEl.classList.add('bg-cyan-400', 'text-slate-950', 'border-cyan-400');
+      }
+    }
+
+    // Đóng dropdown khi click ra ngoài
+    document.addEventListener('click', (e) => {
+      const menu = document.getElementById('mobile-nav-menu');
+      const btn = document.getElementById('mobile-nav-btn');
+      const backdrop = document.getElementById('mobile-nav-backdrop');
+      if (menu && !menu.classList.contains('hidden') && !menu.contains(e.target) && !btn?.contains(e.target)) {
+        menu.classList.add('hidden');
+        backdrop?.classList.add('hidden');
+        document.getElementById('mobile-nav-arrow')?.classList.remove('rotate-180');
+      }
+    });
+
+    // Tự động nhận diện và đổi chặng đang xem khi cuộn màn hình
+    const sectionIds = ['hero', 'chang-1', 'chang-2', 'chang-3', 'chang-4', 'chang-5', 'chang-6'];
+    const sectionLabels = {
+      'hero': '📌 Bối Cảnh',
+      'chang-1': '🎯 Chặng 1',
+      'chang-2': '💰 Chặng 2',
+      'chang-3': '🗺️ Chặng 3',
+      'chang-4': '✍️ Chặng 4',
+      'chang-5': '🎯 Chặng 5',
+      'chang-6': '🚀 Chặng 6'
+    };
+
+    window.addEventListener('scroll', () => {
+      let currentSection = '';
+      const scrollPos = window.scrollY + 160;
+
+      for (let i = sectionIds.length - 1; i >= 0; i--) {
+        const el = document.getElementById(sectionIds[i]);
+        if (el && el.offsetTop <= scrollPos) {
+          currentSection = sectionIds[i];
+          break;
+        }
+      }
+
+      if (currentSection) {
+        setActiveNav(currentSection);
+        const labelEl = document.getElementById('mobile-nav-label');
+        if (labelEl && sectionLabels[currentSection]) {
+          labelEl.innerText = sectionLabels[currentSection];
+        }
+      }
+    });
+
+    // Modal Viewer Logic
+    function openModal(docKey) {
+      const content = DOCS_STORE[docKey] || '# Tài liệu đang được cập nhật...';
+      const bodyEl = document.getElementById('modal-body');
+      const titleEl = document.getElementById('modal-title');
+      const overlayEl = document.getElementById('modal-overlay');
+
+      titleEl.innerHTML = `<i data-lucide="file-code" class="w-4 h-4"></i><span>${docKey}</span>`;
+      bodyEl.innerHTML = marked.parse(content);
+      overlayEl.classList.remove('hidden');
+      overlayEl.classList.add('flex');
+      lucide.createIcons();
+    }
+
+    function closeModal() {
+      const overlayEl = document.getElementById('modal-overlay');
+      overlayEl.classList.add('hidden');
+      overlayEl.classList.remove('flex');
+    }
+
+    // Close on escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    // Copy snippet
+    function copySnippet(elementId) {
+      const el = document.getElementById(elementId);
+      if (!el) return;
+      navigator.clipboard.writeText(el.innerText).then(() => {
+        showToast('Đã sao chép nội dung Ad Copy vào clipboard!');
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const text = document.getElementById('toast-text');
+      if (toast && text) {
+        text.innerText = msg;
+        toast.classList.remove('translate-y-20', 'opacity-0');
+        setTimeout(() => {
+          toast.classList.add('translate-y-20', 'opacity-0');
+        }, 2500);
+      }
+    }
+
+    // LocalStorage Task Sync
+    function syncTasks() {
+      const checkboxes = document.querySelectorAll('#roadmap input[type="checkbox"]');
+      const state = {};
+      checkboxes.forEach(cb => { state[cb.id] = cb.checked; });
+      localStorage.setItem('slim3_roadmap_tasks', JSON.stringify(state));
+    }
+
+    function loadTasks() {
+      const saved = localStorage.getItem('slim3_roadmap_tasks');
+      if (saved) {
+        try {
+          const state = JSON.parse(saved);
+          Object.keys(state).forEach(id => {
+            const cb = document.getElementById(id);
+            if (cb) cb.checked = state[id];
+          });
+        } catch (e) { console.error(e); }
+      }
+    }
+
+    function resetTasks() {
+      if (confirm('Bạn có chắc muốn đặt lại toàn bộ checklist không?')) {
+        const checkboxes = document.querySelectorAll('#roadmap input[type="checkbox"]');
+        checkboxes.forEach(cb => cb.checked = false);
+        localStorage.removeItem('slim3_roadmap_tasks');
+        showToast('Đã làm mới toàn bộ checklist!');
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      loadTasks();
+    });
+  </script>
+</body>
+</html>
