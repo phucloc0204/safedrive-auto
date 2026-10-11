@@ -7,9 +7,9 @@
 ---
 
 ## I. MỤC TIÊU & CHỈ SỐ KPI THÁNG 10/2026
-
-* **Doanh thu mục tiêu:** **250.000.000 VNĐ** (Delivered GMV).
-* **Số lượng đơn hàng:** **~100 đơn hàng** (Trung bình 50 đơn tại Philippines + 50 đơn tại Malaysia).
+ 
+* **Doanh thu thuần thực nhận (Net Settlement Revenue):** **250.000.000 VNĐ** *(Sau khi đã trừ toàn bộ phí sàn, voucher, chiết khấu — Tương đương tổng GMV gộp hiển thị trên sàn khoảng **~295.000.000 VNĐ**)*.
+* **Số lượng đơn hàng giao thành công:** **~110 đơn hàng** (Trung bình 55 đơn tại Philippines + 55 đơn tại Malaysia, Net AOV ~2.3M/đơn).
 * **Sản phẩm trọng tâm:** Android Box **SLIM 3** (kéo phễu) và **SLIM 5** (chủ lực doanh số).
 * **Ngân sách Marketing / Ads dự kiến:** **25.000.000 – 35.000.000 VNĐ** (Kiểm soát chi phí CPA < 20% giá bán).
 * **Tỷ lệ nhận hàng thành công (Delivery Rate):** **> 85%** (triệt tiêu hoàn hàng nhờ sản phẩm cắm giắc 100% không cần gara).

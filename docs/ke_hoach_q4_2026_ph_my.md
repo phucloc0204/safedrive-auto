@@ -2,7 +2,7 @@
 ## SafeDrive Global Auto — Phòng Thương Mại Điện Tử Quốc Tế (ECOM GLOBAL)
 **Người lập:** NGUYỄN PHÚC LỘC — Trưởng Nhóm ECOM  
 **Thời gian thực hiện:** Tháng 10, Tháng 11, Tháng 12 năm 2026  
-**Mục tiêu tối thượng:** Đạt **2.000.000.000 VNĐ** Doanh thu thực tế (Delivered GMV)  
+**Mục tiêu tối thượng:** Đạt **2.000.000.000 VNĐ** Doanh thu thuần thực nhận (Net Settlement Revenue / Payout về tài khoản công ty sau khi đã khấu trừ 100% chiết khấu, phí sàn, voucher, giảm giá).
 
 ---
 
@@ -21,22 +21,37 @@
 1. **Chuyển dịch 100% trọng tâm Sàn TMĐT sang ANDROID BOX DCTECH (SLIM 3 & SLIM 5):**
    * Sản phẩm **Plug & Play (cắm giắc USB 100% giữ zin)**: Khách tự cắm vào cổng CarPlay/Android Auto của xe và sử dụng trong 30 giây. **Triệt tiêu 100% rào cản phụ thuộc gara!**
    * Mở rộng đánh song song cả 2 thị trường trọng điểm Đông Nam Á: **Philippines (PH)** và **Malaysia (MY)**.
-2. **Kích hoạt Kênh Bán Hàng Trực Tiếp — LIVESTREAM COMMERCE FULLTIME:**
-   * Thay vì duy trì nhân sự vận hành sàn thủ công, team tinh gọn bộ máy và đầu tư tuyển **1 Host Livestream Fulltime** lên sóng hàng ngày trên TikTok Shop / Shopee Live.
+2. **Kích hoạt Kênh Bán Hàng Trực Tiếp — LIVESTREAM COMMERCE:**
+   * Thay vì duy trì nhân sự vận hành sàn thủ công, team tinh gọn bộ máy và đầu tư tuyển **Host Livestream** (Part-time thử nghiệm trong T10 ➔ Nâng cấp Fulltime khi có doanh số ổn định từ T11).
    * Trực tiếp demo cắm giắc xe, giải đáp tương thích dòng xe theo thời gian thực và đón đầu bão voucher sàn dịp Mega Sale 11.11 và 12.12.
 
 ---
 
-## II. BÀI TOÁN KINH TẾ & PHÂN BỔ MỤC TIÊU 2 TỶ ĐỒNG
+## II. BÀI TOÁN KINH TẾ: QUY ĐỔI GMV SÀN VÀ NET REVENUE THỰC NHẬN
 
-### 1. Bảng Phân Bổ Doanh Thu & Đơn Hàng Theo Tháng:
+### 1. Cơ Cấu Khấu Trừ Tài Chính (Unit Economics Breakdown):
+* **Định nghĩa Net Revenue:** Là số tiền thực tế sàn đối soát và chuyển về tài khoản ngân hàng của công ty:
+  $$\text{Net Revenue (Thực nhận)} = \text{GMV (Doanh số gộp)} - \text{Phí Sàn (Commission + Transaction)} - \text{Voucher Shop} - \text{Chiết khấu Flash Sale}$$
+* **Tỷ lệ khấu trừ trung bình trên Shopee & TikTok Shop ĐNÁ:** Chiếm khoảng **13% – 15%** trên GMV.
+* **Quy mô GMV gộp cần tạo ra trên sàn:**
+  * Để đạt **2.000.000.000 VNĐ Net Revenue**, tổng giá trị GMV gộp hiển thị trên sàn cần đạt:
+    $$\text{Tổng GMV Mục tiêu} = \frac{2.000.000.000}{1 - 15\%} \approx \mathbf{2.350.000.000 – 2.400.000.000 \text{ VNĐ}}$$
+* **Giá trị đơn hàng thực thu bình quân (Net AOV):**
+  * SLIM 3 Box (Giá niêm yết ~1.95M): Net thực nhận sau phí sàn ~**1.700.000 VNĐ / đơn**.
+  * SLIM 5 Box (Giá niêm yết ~3.05M): Net thực nhận sau phí sàn ~**2.650.000 VNĐ / đơn**.
+  * Tỷ trọng bán dự kiến (35% SLIM 3 + 65% SLIM 5) ➔ **Net AOV trung bình = ~2.300.000 VNĐ / đơn thực nhận**.
+  * **Tổng số đơn giao thành công cần đạt:** $\frac{2.000.000.000}{2.300.000} \approx \mathbf{870 – 880 \text{ đơn hàng}}$.
 
-| Giai đoạn | Mục tiêu Doanh thu | Số đơn mục tiêu (AOV ~2.5M) | Thị trường PH (50%) | Thị trường MY (50%) | Trọng tâm chiến lược |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **Tháng 10/2026** | **250.000.000 đ** | ~100 đơn | 50 đơn (~125M) | 50 đơn (~125M) | **Tạo đà & Thử nghiệm:** Vận chuyển kho MY, listing 4 shop sàn, tuyển & setup Livestream, gom 50 review 5★ |
-| **Tháng 11/2026** | **800.000.000 đ** | ~320 đơn | 160 đơn (~400M) | 160 đơn (~400M) | **Bùng nổ 11.11 & Payday:** Đánh tổng lực Mega Sale 11.11, Live marathon, scale ngân sách Ads nội sàn & TikTok |
-| **Tháng 12/2026** | **950.000.000 đ** | ~380 đơn | 200 đơn (~500M) | 180 đơn (~450M) | **Về đích 12.12 & Giáng sinh:** Sóng mua sắm du lịch cuối năm, chốt dứt điểm KPI 2 Tỷ |
-| **TỔNG CỘNG Q4** | **2.000.000.000 đ** | **~800 đơn** | **~400 đơn** | **~400 đơn** | **Trung bình: 9 - 12 đơn / ngày / cả 2 nước** |
+---
+
+### 2. Bảng Phân Bổ Doanh Thu Thực Nhận & Đơn Hàng Theo Tháng:
+
+| Giai đoạn | Doanh thu Net thực nhận (Payout) | GMV Gộp trên Sàn (Gross GMV) | Số đơn giao thành công (Net AOV ~2.3M) | Thị trường PH (50%) | Thị trường MY (50%) | Trọng tâm chiến lược |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Tháng 10/2026** | **250.000.000 đ** | ~295.000.000 đ | **~110 đơn** | 55 đơn (~125M Net) | 55 đơn (~125M Net) | **Tạo đà & Thử nghiệm:** Vận chuyển kho MY, listing 4 shop sàn, tuyển & test Host Live, gom 50 review 5★ |
+| **Tháng 11/2026** | **800.000.000 đ** | ~940.000.000 đ | **~350 đơn** | 175 đơn (~400M Net) | 175 đơn (~400M Net) | **Bùng nổ 11.11 & Payday:** Đánh tổng lực Mega Sale 11.11, Live marathon, scale ngân sách Ads nội sàn & TikTok |
+| **Tháng 12/2026** | **950.000.000 đ** | ~1.120.000.000 đ | **~420 đơn** | 220 đơn (~500M Net) | 200 đơn (~450M Net) | **Về đích 12.12 & Giáng sinh:** Sóng mua sắm du lịch cuối năm, chốt dứt điểm KPI 2 Tỷ Net Revenue |
+| **TỔNG CỘNG Q4** | **2.000.000.000 đ** | **~2.355.000.000 đ** | **~880 đơn** | **~450 đơn Net** | **~430 đơn Net** | **Trung bình: 10 - 12 đơn giao thành công / ngày / cả 2 nước** |
 
 ---
 
