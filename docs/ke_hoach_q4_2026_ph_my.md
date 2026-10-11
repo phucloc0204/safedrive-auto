@@ -100,18 +100,23 @@
    * Sản xuất video ngắn 9:16: Hook đánh trúng nỗi đau, demo cắm giắc 30s trên xe vô lăng phải (MY) và vô lăng trái (PH).
    * Phụ trách hạ tầng kỹ thuật phòng Livestream (ánh sáng, góc máy mô phỏng taplo, âm thanh).
    * Cắt ghép các đoạn video highlight từ phiên Live để tái sử dụng làm video ngắn cắn xu hướng.
-3. **Nhân Sự Mới (Host Livestream Fulltime):**
-   * Lên sóng đều đặn 2 - 4 tiếng/ngày (tăng lên 6 tiếng/ngày trong các đợt Mega Sale).
-   * Giao tiếp tiếng Anh lưu loát, năng lượng cao, am hiểu các dòng xe phổ biến tại PH & MY.
-   * Trực tiếp tương tác giỏ hàng, tung mã độc quyền và giải tỏa 100% thắc mắc lắp đặt của khách.
+3. **Nhân Sự Mới (Host Livestream — Lộ trình 2 Giai đoạn):**
+   * **Giai đoạn 1 (Tháng 10): Hợp tác Part-time theo ca:**
+     * Thử nghiệm 10 - 12 ca live (1.5h - 2h/ca) tận dụng slot trống phòng live hoặc triển khai Car Livestream (live trực tiếp trong xe ô tô).
+     * Đánh giá chỉ số: Giữ chân mắt xem (CCU), tỷ lệ nhấp giỏ hàng, doanh số phát sinh.
+   * **Giai đoạn 2 (Tháng 11 & 12): Nâng cấp Fulltime khi doanh số ổn định:**
+     * Khi shop đạt 5 - 10 đơn/ngày ổn định, chính thức ký hợp đồng Fulltime để chiếm trọn slot live và tăng ca marathon (4 - 6h/ngày) trong đợt Mega Sale 11.11 và 12.12.
+     * Giao tiếp tiếng Anh lưu loát, năng lượng cao, am hiểu các dòng xe phổ biến tại PH & MY.
+     * Trực tiếp tương tác giỏ hàng, tung mã độc quyền và giải tỏa 100% thắc mắc lắp đặt của khách.
 
 ---
 
 ## V. CÁC CỘT MỐC QUAN TRỌNG (MILESTONES):
 * **20/10/2026:** Hoàn tất listing 4 gian hàng sàn Shopee & TikTok Shop (PH & MY).
 * **22/10/2026:** Bàn giao dứt điểm công việc vận hành từ Bảo; kết nối cổng tự động với 3PL.
-* **25/10/2026:** Hàng Android Box cập bến kho 3PL Malaysia; hoàn tất tuyển dụng Host Live.
-* **01/11 - 12/11/2026:** Bùng nổ chiến dịch **Mega Sale 11.11** (Target: 400M - 500M GMV).
+* **25/10/2026:** Hàng Android Box cập bến kho 3PL Malaysia; chốt Host Live Part-time.
+* **26/10 - 31/10/2026:** Test run Livestream Part-time; chốt 100 đơn đầu tiên làm bàn đạp.
+* **01/11 - 12/11/2026:** Kích hoạt Host Live Fulltime, bùng nổ chiến dịch **Mega Sale 11.11** (Target: 400M - 500M GMV).
 * **25/11 - 28/11/2026:** Chiến dịch Payday cuối tháng 11.
 * **01/12 - 14/12/2026:** Bùng nổ chiến dịch **Mega Sale 12.12** & Giáng sinh (Target: 500M - 600M GMV).
 * **31/12/2026:** Cán đích tổng doanh thu thực nhận **2.000.000.000 VNĐ**.

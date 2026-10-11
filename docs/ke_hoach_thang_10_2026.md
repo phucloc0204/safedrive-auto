@@ -103,11 +103,12 @@ TUẦN 2 (11/10 - 18/10)            TUẦN 3 (19/10 - 25/10)            TUẦN 4
 
 ### 📅 TUẦN 4: TEST RUN LIVESTREAM & CHẠY THỬ NGHIỆM ADS (26/10 – 31/10)
 
-#### 1. Nhân Sự Host Livestream Mới:
-* [ ] **Lên sóng chạy thử nghiệm (2 tiếng/ngày):**
-  * Khung giờ: 12h00 - 13h30 (Ca trưa) hoặc 19h30 - 21h00 (Ca tối).
+#### 1. Nhân Sự Host Livestream (Part-time):
+* [ ] **Lên sóng chạy thử nghiệm (Theo ca 1.5h - 2h/ngày, 3-4 buổi/tuần):**
+  * Khung giờ ưu tiên: 12h00 - 13h30 (Ca trưa) hoặc 19h30 - 21h00 (Ca tối).
+  * Địa điểm linh hoạt: Tận dụng slot trống phòng live công ty HOẶC triển khai **Car Livestream** (ngồi trực tiếp trong xe ô tô cắm giắc thực tế, cực kỳ chân thật và không phụ thuộc phòng live).
   * Trọng tâm: Làm quen ống kính, luyện kỹ năng cắm giắc demo mượt mà, trả lời thắc mắc của người xem tiếng Anh.
-  * Đo lường mắt xem (CCU) và số lượt bấm vào giỏ hàng.
+  * Đo lường mắt xem (CCU) và số lượt bấm vào giỏ hàng để chuẩn bị nâng cấp Fulltime khi doanh số ổn định.
 
 #### 2. Nguyễn Phúc Lộc:
 * [ ] **Kích hoạt chiến dịch Ads Thử Nghiệm (Pre-launch Ads):**
@@ -120,7 +121,7 @@ TUẦN 2 (11/10 - 18/10)            TUẦN 3 (19/10 - 25/10)            TUẦN 4
   * Đăng ký mã Flash Sale sàn, chương trình Freeship Xtra, Mega Voucher của Shopee & TikTok Shop.
 
 #### 3. Khang:
-* [ ] **Hỗ trợ kỹ thuật các phiên Live hàng ngày.**
+* [ ] **Hỗ trợ kỹ thuật các phiên Live hàng ngày (Setup máy quay & ánh sáng trong phòng hoặc trong xe ô tô).**
 * [ ] **Cắt ghép 5 - 10 video Highlight từ các phiên Livestream:**
   * Lấy các đoạn Host trả lời thắc mắc xe cực hay để đăng lên kênh TikTok tạo độ tin cậy.
 * [ ] **Sản xuất bộ banner đếm ngược cho Mega Sale 11.11.**
@@ -129,27 +130,28 @@ TUẦN 2 (11/10 - 18/10)            TUẦN 3 (19/10 - 25/10)            TUẦN 4
 
 ## III. MA TRẬN PHÂN CÔNG TRÁCH NHIỆM (RACI MATRIX)
 
-| Đầu việc trọng tâm | Lộc (Lead) | Khang (Media) | Bảo (Ops - đến 25/10) | Host Live (Mới) | Deadline |
+| Đầu việc trọng tâm | Lộc (Lead) | Khang (Media) | Bảo (Ops - đến 25/10) | Host Live (Part-time) | Deadline |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Gửi lô hàng Box sang kho Malaysia** | A | I | **R** | - | **18/10** |
-| **Tuyển dụng Host Livestream Fulltime** | **R / A** | C | I | - | **20/10** |
+| **Tuyển dụng Host Livestream Part-time** | **R / A** | C | I | - | **20/10** |
 | **Bộ ảnh Visual 4 Shop Sàn TMĐT** | A | **R** | - | - | **18/10** |
 | **Hoàn thành Listing 4 Gian Hàng Sàn** | **R / A** | C | - | - | **22/10** |
-| **Setup Góc Livestream Chuyên Nghiệp** | A | **R** | - | C | **22/10** |
+| **Setup Góc Live (Phòng live slot trống / Trong xe thật)** | A | **R** | - | C | **22/10** |
 | **Bàn giao dứt điểm Vận hành & Kho 3PL** | A | I | **R** | - | **25/10** |
-| **Lên sóng Live thử nghiệm hàng ngày** | A | C | - | **R** | **26/10** |
+| **Lên sóng Live thử nghiệm (ca trưa/tối)** | A | C | - | **R** | **26/10** |
 | **Đạt mốc 100 đơn hàng đầu tiên Tháng 10** | **R / A** | C | - | C | **31/10** |
 
 *(Ghi chú: **R** = Người trực tiếp làm; **A** = Người chịu trách nhiệm phê duyệt; **C** = Người hỗ trợ; **I** = Người nhận thông tin).*
 
 ---
 
-## IV. BẢNG DỰ TOÁN NGÂN SÁCH THÁNG 10/2026
+## IV. BẢNG DỰ TOÁN NGÂN SÁCH THÁNG 10/2026 (LEAN BUDGET)
 
 | Hạng mục chi phí | Ngân sách dự kiến | Mục tiêu đầu ra |
 | :--- | :---: | :--- |
 | **Chi phí Vận chuyển lô hàng Box sang MY** | ~5.000.000 VNĐ | Hàng có mặt tại kho 3PL Malaysia an toàn |
-| **Chi phí Setup góc Livestream & Dụng cụ** | ~4.000.000 VNĐ | Đèn, camera, chân máy, mô hình taplo xe |
+| **Chi phí Thù lao Host Livestream Part-time** | ~4.000.000 VNĐ | Trả theo ca (~150k - 200k/giờ cho ~10-12 ca live thử nghiệm + % hoa hồng đơn) |
+| **Chi phí Dụng cụ Live (Chân máy, mic, đèn di động)** | ~2.500.000 VNĐ | Thiết bị gọn nhẹ dùng được cả trong xe hơi và phòng live |
 | **Ngân sách Ads thử nghiệm (TikTok + Shopee)** | ~18.000.000 VNĐ | Kéo traffic, đo CPA, gom 100 đơn đầu tiên |
 | **Chi phí Seeding Review & Mua mồi 5★** | ~3.000.000 VNĐ | 30 - 50 lượt đánh giá 5 sao kèm hình ảnh thật |
-| **TỔNG NGÂN SÁCH DỰ KIẾN THÁNG 10** | **~30.000.000 VNĐ** | **Tạo đà vững chắc đón bão 11.11 và 12.12** |
+| **TỔNG NGÂN SÁCH DỰ KIẾN THÁNG 10** | **~32.500.000 VNĐ** | **Tối ưu chi phí cố định, chuẩn bị nâng cấp Fulltime vào T11** |
